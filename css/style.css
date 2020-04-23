@@ -4,11 +4,11 @@ body{
 }
 
 header{
-    font-size: 60px;
+    font-size: 50px;
     background-color:rgb(93, 157, 138);
     text-align: center;
     color:rgb(250, 202, 71) ;
-    padding: 60px;
+    padding: 40px;
     font-weight: bold;
     letter-spacing: -5px;
     border-bottom: 1.5px solid rgb(159, 204, 107);
@@ -18,23 +18,25 @@ header{
 footer{
 
     background-color: rgb(93, 157, 138);
-    padding: 40px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     border-top: 1.5px solid rgb(159, 204, 107);
 
     
 }
-main>*:nth-child(2){
+main>*:last-child{
     background-color: rgb(93, 157, 138);
     color:rgb(250, 202, 71);
-    width: 40%;
+    width: 25%;
     text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: auto 5% 5% 5%;
     justify-content: center;
-      
-
+    border-radius: 10px ;
+    
+    
+    
 }
 footer a
 {
@@ -48,78 +50,80 @@ main a{
 }
 
 
-main>*:nth-child(1){
+main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
+
 }
 
-section{
+article{
 
     width: 25%;
     font-size: 30px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    margin: 70px;
     box-shadow: 1px 0px 20px lightgrey;
-
+    
 }
 
-section h2{
+article h2{
     margin: 20px;
 }
 
-div>*:nth-child(1) h3{
+main>*:nth-child(1) h3{
     font-family: 'Devonshire';
    
     
-    
-    
 }
-div>*:nth-child(2) h3 {
+main>*:nth-child(2) h3{
     font-family: 'Croissant One';
     font-size: 20px;
     
     
 }
-div>*:nth-child(3) h3{
+main>*:nth-child(3) h3{
     font-family: 'Dancing Script';
 
     
 }
-div>*:nth-child(4) h3{
+main>*:nth-child(4) h3{
     font-family: 'Kaushan Script';
     
 }
-div>*:nth-child(2) h2{
+main>*:nth-child(2) h2{
     font-family:'Playfair Display' ;
 }
 
 
-div>*:nth-child(3) h2, div>*:nth-child(4) h2{
+main>*:nth-child(3) h2, div>*:nth-child(4) h2{
 
     font-family: 'Shadows Into Light';
     font-weight: bold;
 }
 
-div>*:nth-child(1){
+main>*:nth-child(1){
     background-color:rgb(253, 220, 218) ;
+    margin: 5%;
+    
 }
 
-div>*:nth-child(2){
+main>*:nth-child(2){
 background-color:rgb(247, 236, 245);
+margin: 5%;
+
 }
 
-div>*:nth-child(3){
+main>*:nth-child(3){
     background-color:rgb(238, 240, 242);
+    margin: auto 5% 5% 5%;
+    
 }
 
 
-div>*:nth-child(4){
+main>*:nth-child(4){
     background-color:rgb(255, 255, 255);
+    margin: auto 5% 5% 5%;
 }
 
