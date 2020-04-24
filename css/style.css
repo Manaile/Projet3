@@ -1,10 +1,10 @@
-body{
+body{                                                            /*police et taille du texte*/
     font-family: 'Montserrat';
     font-size: 30px;
 }
 
-header{
-    font-size: 50px;
+header{                                                              /*mise en page du header */
+    font-size: 50px;    
     background-color:rgb(93, 157, 138);
     text-align: center;
     color:rgb(250, 202, 71) ;
@@ -15,7 +15,7 @@ header{
     
 }
 
-footer{
+footer{                                                               /*mise en page du footer*/
 
     background-color: rgb(93, 157, 138);
     padding: 30px;
@@ -25,7 +25,7 @@ footer{
 
     
 }
-main>*:last-child{
+main>*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
     color:rgb(250, 202, 71);
     width: 25%;
@@ -38,26 +38,40 @@ main>*:last-child{
     
     
 }
-footer a
+footer a                                                           /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
     color:rgb(250, 202, 71);
+
     
 }
+footer a:hover{                                                 /*animation du footer*/
+    animation: headshake 400ms ease-in-out;
+    animation-iteration-count: infinite;
 
-main a{
-    text-decoration: none;
+}
+@keyframes headshake{
+    25%{
+        transform: translateX(5%)
+    }
+    75%{
+        transform: translateX(-5%)
+    }
 }
 
+.menus{                                                                  /*lien non soulignés dans le main*/
+    text-decoration: none;  
 
-main{
+}
+
+main{                                                                       /*mise en page du main*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-article{
+article{                                                                /*mise en page de chaque menu*/
 
     width: 25%;
     font-size: 30px;
@@ -68,62 +82,62 @@ article{
     
 }
 
-article h2{
+article h2{                                                                 /*titre principal des menus*/
     margin: 20px;
 }
 
-main>*:nth-child(1) h3{
+main>*:nth-child(1) h3{                                                     /*titre secondaire du 1er menu*/
     font-family: 'Devonshire';
    
     
 }
-main>*:nth-child(2) h3{
+main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
     font-family: 'Croissant One';
     font-size: 20px;
     
     
 }
-main>*:nth-child(3) h3{
+main>*:nth-child(3) h3{                                                     /*titre du 3eme menu*/
     font-family: 'Dancing Script';
 
     
 }
-main>*:nth-child(4) h3{
+main>*:nth-child(4) h3{                                                        /*titre du 4eme menu*/
     font-family: 'Kaushan Script';
     
 }
-main>*:nth-child(2) h2{
+main>*:nth-child(2) h2{                                                         /*police du 2eme menu*/
     font-family:'Playfair Display' ;
 }
 
 
-main>*:nth-child(3) h2, div>*:nth-child(4) h2{
+main>*:nth-child(1) h2,main>*:nth-child(3) h2, main>*:nth-child(4) h2{          /*police des autres menus*/
 
-    font-family: 'Shadows Into Light';
-    font-weight: bold;
+    font-family: 'Caveat';
 }
 
-main>*:nth-child(1){
+main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
     margin: 5%;
     
 }
 
-main>*:nth-child(2){
+main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
 background-color:rgb(247, 236, 245);
 margin: 5%;
 
 }
 
-main>*:nth-child(3){
+main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
     background-color:rgb(238, 240, 242);
     margin: auto 5% 5% 5%;
     
 }
 
 
-main>*:nth-child(4){
+main>*:nth-child(4){                                                            /*couleur de fond du 4eme menu*/
     background-color:rgb(255, 255, 255);
     margin: auto 5% 5% 5%;
 }
+
 
