@@ -40,8 +40,10 @@ main>*:last-child{                                                       /*le "p
     font-size: 5px;
     margin: 5px;
     display: flex;
-    align-self: flex-end;    
+    align-self: flex-end;
 }
+
+
 footer a                                                           /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
@@ -57,32 +59,31 @@ footer a:hover{
 @keyframes wiggles{
     
     25%{
-        transform: translateX(4px) rotate(1deg)
+        transform: translateX(4px) rotate(1deg);
     }
     75%{
-        transform: translateX(-4px) rotate(-1deg)
+        transform: translateX(-4px) rotate(-1deg);
     }
     
 }
-
-main a{                                                                  /*lien non soulignés dans le main*/
-    text-decoration: none;  
-    transform: scale(1);
-    transition: transform 200ms ease-in-out;
-    opacity: 1;
-
-}
-main a:hover{
-    transform: scale(1.2);
-    opacity: 0.8;
-}
-
 main{                                                                       /*mise en page du main*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
+
+article a{                                                                  /*lien non soulignés dans le main*/
+text-decoration: none;  
+display: block;
+
+}
+article a:hover{                                                            /*animation sur le lien des pages*/
+    transition: scale(1) ease-in-out 400ms;
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
 
 article{                                                                /*mise en page de chaque menu*/
 
@@ -92,7 +93,6 @@ article{                                                                /*mise e
     padding-top: 200px;
     padding-bottom: 200px;
     box-shadow: 1px 0px 20px lightgrey;
-    
 }
 
 article h2{                                                                 /*titre principal des menus*/
@@ -102,7 +102,6 @@ article h2{                                                                 /*ti
 main>*:nth-child(1) h3{                                                     /*titre secondaire du 1er menu*/
     font-family: 'Devonshire';
    
-    
 }
 main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
     font-family: 'Croissant One';
@@ -132,7 +131,6 @@ main>*:nth-child(1) h2,main>*:nth-child(3) h2, main>*:nth-child(4) h2{          
 main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
     margin: 5%;
-    
 }
 
 main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
@@ -144,7 +142,6 @@ margin: 5%;
 main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
     background-color:rgb(238, 240, 242);
     margin: auto 5% 5% 5%;
-    
 }
 
 
