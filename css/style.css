@@ -2,7 +2,6 @@ body{                                                            /*police et tai
     font-family: 'Montserrat';
     font-size: 30px;
 }
-
 header{                                                              /*mise en page du header */
     font-size: 50px;    
     background-color:rgb(93, 157, 138);
@@ -12,18 +11,13 @@ header{                                                              /*mise en p
     font-weight: bold;
     letter-spacing: -5px;
     border-bottom: 1.5px solid rgb(159, 204, 107);
-    
 }
-
 footer{                                                               /*mise en page du footer*/
-
     background-color: rgb(93, 157, 138);
     padding: 30px;
     display: flex;
     justify-content: space-between;
     border-top: 1.5px solid rgb(159, 204, 107);
-
-    
 }
 main>*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
@@ -35,26 +29,19 @@ main>*:last-child{                                                       /*le "p
     display: flex;
     justify-content: space-between;
 }
-
 .fa-circle{                                                                 /*les points de suspension*/
     font-size: 5px;
     margin: 5px;
     display: flex;
     align-self: flex-end;
 }
-
-
 footer a                                                           /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
     color:rgb(250, 202, 71);
-
-    
 }
 footer a:hover{                                                
-    animation: wiggles 200ms ease-out;
-    animation-iteration-count: infinite;
-    
+    animation: wiggles 200ms ease-out infinite;
 }                                                                    /*animation du footer*/
 @keyframes wiggles{
     
@@ -70,23 +57,20 @@ main{                                                                       /*mi
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-
+.fa-music{
+    color: rgb(221, 76, 120);
+}
 article a{                                                                  /*lien non soulignés dans le main*/
 text-decoration: none;  
 display: block;
-
 }
 article a:hover{                                                            /*animation sur le lien des pages*/
     transition: scale(1) ease-in-out 400ms;
     transform: scale(1.5);
     opacity: 0.7;
 }
-
-
 article{                                                                /*mise en page de chaque menu*/
-
     width: 25%;
     font-size: 30px;
     text-align: center;
@@ -94,60 +78,63 @@ article{                                                                /*mise e
     padding-bottom: 200px;
     box-shadow: 1px 0px 20px lightgrey;
 }
-
 article h2{                                                                 /*titre principal des menus*/
     margin: 20px;
 }
-
 main>*:nth-child(1) h3{                                                     /*titre secondaire du 1er menu*/
     font-family: 'Devonshire';
-   
+    color: rgb(71, 31, 24);
+}
+main>*:nth-child(1) h2{                                                    /*titre principal du 1er menu*/
+    color: rgb(71, 31, 24);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
 }
 main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
     font-family: 'Croissant One';
     font-size: 20px;
-    
-    
+    color: rgb(189, 93, 233);
 }
-main>*:nth-child(3) h3{                                                     /*titre du 3eme menu*/
-    font-family: 'Dancing Script';
-
-    
-}
-main>*:nth-child(4) h3{                                                        /*titre du 4eme menu*/
-    font-family: 'Kaushan Script';
-    
-}
-main>*:nth-child(2) h2{                                                         /*police du 2eme menu*/
+main>*:nth-child(2) h2{                                                         /*titre principal du 2nd menu*/
     font-family:'Playfair Display' ;
+    color: rgb(223, 137, 67);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
 }
-
-
-main>*:nth-child(1) h2,main>*:nth-child(3) h2, main>*:nth-child(4) h2{          /*police des autres menus*/
-
+main>*:nth-child(3) h3{                                                     /*titre secondaire du 3eme menu*/
+    font-family: 'Dancing Script';
+}
+main>*:nth-child(3) h2{                                                     /*titre principal du 3eme menu*/
     font-family: 'Caveat';
+    color: rgb(6, 122, 255);
+    font-size: 50px;
+    margin-top: 50px;
 }
-
+main>*:nth-child(4) h3{                                                        /*titre principal du 4eme menu*/
+    font-family: 'Kaushan Script';
+    color: rgb(150, 243, 43);
+}
+main>*:nth-child(4) h2{                                                       /*titre secondaire du 4eme menu*/
+    font-family: 'Caveat';
+    color: rgb(97, 184, 87);
+    font-size: 50px;
+    margin-top: 50px;
+}
 main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
     margin: 5%;
 }
-
 main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
 background-color:rgb(247, 236, 245);
 margin: 5%;
-
 }
-
 main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
     background-color:rgb(238, 240, 242);
     margin: auto 5% 5% 5%;
 }
-
-
 main>*:nth-child(4){                                                            /*couleur de fond du 4eme menu*/
     background-color:rgb(255, 255, 255);
     margin: auto 5% 5% 5%;
 }
-
-
