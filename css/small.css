@@ -1,0 +1,17 @@
+main{                                       /*résolution de la taille de l'écran pour meilleur affichage*/
+    width: 560px; 
+    margin: 0 auto;
+}
+article{                                    /*dimension de chaque menu*/
+    width: 70%;
+}
+main>*:last-child{                          /*dimension du prochainement*/
+    width: 55%;
+    margin-bottom: 100px;
+}
+footer{                                     /*changement de la taille de la police du footer*/
+    font-size: 25px;
+}
+main>*:nth-child(1){                        /*supression de la marge basse du premier menu*/
+    margin-bottom: 0px;
+}

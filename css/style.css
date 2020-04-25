@@ -1,8 +1,8 @@
-body{                                                            /*police et taille du texte*/
+body{                                                                    /*police et taille du texte*/
     font-family: 'Montserrat';
     font-size: 30px;
 }
-header{                                                              /*mise en page du header */
+header{                                                                  /*mise en page du header */
     font-size: 50px;    
     background-color:rgb(93, 157, 138);
     text-align: center;
@@ -12,7 +12,7 @@ header{                                                              /*mise en p
     letter-spacing: -5px;
     border-bottom: 1.5px solid rgb(159, 204, 107);
 }
-footer{                                                               /*mise en page du footer*/
+footer{                                                                   /*mise en page du footer*/
     background-color: rgb(93, 157, 138);
     padding: 20px;
     display: flex;
@@ -26,8 +26,9 @@ footer{                                                               /*mise en 
 }
 main>*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
+    font-size: 25px;
     color:rgb(250, 202, 71);
-    width: 25%;
+    width: 30%;
     padding: 10px;
     margin:0 5% 8% 5%;
     border-radius: 10px ;
@@ -35,7 +36,7 @@ main>*:last-child{                                                       /*le "p
     justify-content: center;
 }
 .fa-circle{                                                                 /*les points de suspension*/
-    font-size: 7px;
+    font-size: 5px;
     margin: 5px 0;
     padding:0 10px;
     display: flex;
@@ -43,7 +44,7 @@ main>*:last-child{                                                       /*le "p
 }
 div>*:nth-child(2){                                                
     animation: jump 900ms ease-in-out infinite;
-}                                                                       /*animation du prochainement*/
+}                                                                       /*animation du premier point*/
 @keyframes jump{
     
     25%{
@@ -56,7 +57,7 @@ div>*:nth-child(2){
 }
 div>*:nth-child(3){                                                
     animation: jump 900ms ease-out infinite 300ms;
-}                                                                     /*animation du prochainement*/
+}                                                                     /*animation du deuxième point*/
 @keyframes jump{
     
     25%{
@@ -69,7 +70,7 @@ div>*:nth-child(3){
 }
 div>*:nth-child(4){                                                
     animation: jump 900ms ease-out infinite 600ms;
-}                                                                     /*animation du prochainement*/
+}                                                                     /*animation du troisième point*/
 @keyframes jump{
     
     25%{
@@ -80,7 +81,7 @@ div>*:nth-child(4){
     }
     
 }
-footer a                                                           /*lien non soulignés et de couleur jaune dans le footer*/
+footer a                                                             /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
     color:rgb(250, 202, 71);
@@ -98,12 +99,12 @@ footer a:hover{
     }
     
 }
-main{                                                                       /*mise en page du main*/
+main{                                                                 /*mise en page du main*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.fa-music{
+.fa-music{                                                              /*style de la note de music*/
     font-size: 40px;
     padding-bottom: 10px;
     -webkit-background-clip: text;
@@ -116,32 +117,32 @@ display: block;
 }
 article a:hover{                                                            /*animation sur le lien des pages*/
     transition: scale(1) ease-in-out 400ms;
-    transform: scale(1.5);
+    transform: scale(1.12);
     opacity: 0.7;
 }
 article{                                                                /*mise en page de chaque menu*/
-    width: 25%;
+    width: 40%;
     font-size: 30px;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     box-shadow: 1px 0px 20px lightgrey;
 }
-article h2{                                                                 /*titre principal des menus*/
+article h2{                                                                 /*espace pour les mots 'menus'*/
     margin: 20px;
 }
-main>*:nth-child(1) h3{                                                     /*titre secondaire du 1er menu*/
+main>*:nth-child(1) h3{                                                     /*la note enchantée*/
     font-family: 'Devonshire';
     color: rgb(71, 31, 24);
 }
-main>*:nth-child(1) h2{                                                    /*titre principal du 1er menu*/
+main>*:nth-child(1) h2{                                                    /*1er 'menu'*/
     font-family: "Itim";
     color: rgb(71, 31, 24);
     font-style: italic;
     font-size: 40px;
     margin-top: 40px;
 }
-main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
+main>*:nth-child(2) h3{                                                    /*chic à la française*/
     font-family: 'Croissant One';
     padding: 10px;
     font-size: 20px;
@@ -149,33 +150,34 @@ main>*:nth-child(2) h3{                                                    /*tit
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
 } 
-main>*:nth-child(2) h2{                                                         /*titre principal du 2nd menu*/
+main>*:nth-child(2) h2{                                                         /*2eme 'menu'*/
     font-family:'Playfair Display';
     color: rgb(223, 137, 67);
     font-weight: bold;
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 35px;
+    margin-top: 50px;
 }
-main>*:nth-child(3) h3{                                                     /*titre secondaire du 3eme menu*/
+main>*:nth-child(3) h3{                                                     /*le délice des papilles*/
     font-family: 'Dancing Script';
+    padding: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(6, 164, 255),rgb(59, 20, 201));
 }
-main>*:nth-child(3) h2{                                                     /*titre principal du 3eme menu*/
+main>*:nth-child(3) h2{                                                     /*3ème 'menu'*/
     font-family: 'Caveat';
     font-size: 50px;
     margin-top: 40px;
     color: rgb(6, 164, 255);
 }
-main>*:nth-child(4) h3{                                                        /*titre principal du 4eme menu*/
+main>*:nth-child(4) h3{                                                        /*4ème 'menu'*/
     font-family: 'Kaushan Script';
     padding: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0));
 }
-main>*:nth-child(4) h2{                                                       /*titre secondaire du 4eme menu*/
+main>*:nth-child(4) h2{                                                       /*la palette du gout*/
     font-family: 'Caveat';
     color: rgb(96, 189, 83);
     font-size: 50px;
@@ -183,17 +185,17 @@ main>*:nth-child(4) h2{                                                       /*
 }
 main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
-    margin: 5%;
+    margin: 40px;
 }
 main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
-background-color:rgb(247, 236, 245);
-margin: 5%;
+    background-color:rgb(247, 236, 245);
+    margin: 40px;
 }
 main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
     background-color:rgb(238, 240, 242);
-    margin: auto 5% 5% 5%;
+    margin: auto 40px 40px 40px;
 }
 main>*:nth-child(4){                                                            /*couleur de fond du 4eme menu*/
     background-color:rgb(255, 255, 255);
-    margin: auto 5% 5% 5%;
+    margin: auto 40px 40px 40px;
 }

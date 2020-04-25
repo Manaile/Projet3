@@ -1,0 +1,16 @@
+main{                                                           /*résolution de la taille de l'écran pour meilleur affichage*/
+    width: 760px;
+    margin: 0 auto;
+}
+main>*:last-child{                                              /*dimension du 'prochainement'*/
+    width: 45%;
+    margin-bottom: 100px;
+}
+article{                                                         /*dimension de chaque menu*/
+    width: 35%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer{                                                         /* changement de la taille de la police du footer*/
+    font-size: 25px;
+}
