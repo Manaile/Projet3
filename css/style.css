@@ -99,7 +99,9 @@ main{                                                                       /*mi
     justify-content: center;
 }
 .fa-music{
-    color: rgb(221, 76, 120);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(221, 76, 120),rgb(223, 138, 67));
 }
 article a{                                                                  /*lien non soulignés dans le main*/
 text-decoration: none;  
@@ -129,38 +131,46 @@ main>*:nth-child(1) h2{                                                    /*tit
     color: rgb(71, 31, 24);
     font-weight: bold;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
     font-family: 'Croissant One';
     font-size: 20px;
-    color: rgb(189, 93, 233);
-}
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+} 
 main>*:nth-child(2) h2{                                                         /*titre principal du 2nd menu*/
-    font-family:'Playfair Display' ;
+    font-family:'Playfair Display';
     color: rgb(223, 137, 67);
     font-weight: bold;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 main>*:nth-child(3) h3{                                                     /*titre secondaire du 3eme menu*/
     font-family: 'Dancing Script';
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(6, 164, 255),rgb(59, 20, 201));
 }
 main>*:nth-child(3) h2{                                                     /*titre principal du 3eme menu*/
     font-family: 'Caveat';
-    color: rgb(6, 122, 255);
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
+    color: rgb(6, 164, 255);
 }
 main>*:nth-child(4) h3{                                                        /*titre principal du 4eme menu*/
     font-family: 'Kaushan Script';
-    color: rgb(150, 243, 43);
+    padding: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(150, 243, 43),rgb(69, 134, 60));
 }
 main>*:nth-child(4) h2{                                                       /*titre secondaire du 4eme menu*/
     font-family: 'Caveat';
-    color: rgb(97, 184, 87);
+    color: rgb(96, 189, 83);
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
