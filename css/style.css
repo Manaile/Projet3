@@ -14,17 +14,22 @@ header{                                                              /*mise en p
 }
 footer{                                                               /*mise en page du footer*/
     background-color: rgb(93, 157, 138);
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     border-top: 1.5px solid rgb(159, 204, 107);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
 }
 main>*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
     color:rgb(250, 202, 71);
     width: 25%;
     padding: 10px;
-    margin:0 5% 5% 5%;
+    margin:0 5% 8% 5%;
     border-radius: 10px ;
     display: flex;
     justify-content: center;
@@ -99,6 +104,8 @@ main{                                                                       /*mi
     justify-content: center;
 }
 .fa-music{
+    font-size: 40px;
+    padding-bottom: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(221, 76, 120),rgb(223, 138, 67));
@@ -128,13 +135,15 @@ main>*:nth-child(1) h3{                                                     /*ti
     color: rgb(71, 31, 24);
 }
 main>*:nth-child(1) h2{                                                    /*titre principal du 1er menu*/
+    font-family: "Itim";
     color: rgb(71, 31, 24);
-    font-weight: bold;
+    font-style: italic;
     font-size: 40px;
     margin-top: 40px;
 }
 main>*:nth-child(2) h3{                                                    /*titre secondaire du 2nd menu*/
     font-family: 'Croissant One';
+    padding: 10px;
     font-size: 20px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -164,7 +173,7 @@ main>*:nth-child(4) h3{                                                        /
     padding: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(180deg,rgb(150, 243, 43),rgb(69, 134, 60));
+    background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0));
 }
 main>*:nth-child(4) h2{                                                       /*titre secondaire du 4eme menu*/
     font-family: 'Caveat';
