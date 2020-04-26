@@ -22,7 +22,6 @@ footer{                                                                   /*mise
     bottom: 0px;
     right: 0px;
     left: 0px;
-
 }
 main>*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
