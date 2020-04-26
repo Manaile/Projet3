@@ -1,6 +1,6 @@
 body{                                                                    /*police et taille du texte*/
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 25px;
 }
 header{                                                                  /*mise en page du header */
     font-size: 50px;    
@@ -84,6 +84,7 @@ div>*:nth-child(4){
 footer a                                                             /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
+    padding: 0 5px;
     color:rgb(250, 202, 71);
 }
 footer a:hover{                                                

@@ -6,11 +6,12 @@ article{                                    /*dimension de chaque menu*/
     width: 70%;
 }
 main>*:last-child{                          /*dimension du prochainement*/
-    width: 55%;
+    width: 45%;
     margin-bottom: 100px;
+    font-size: 20px;
 }
 footer{                                     /*changement de la taille de la police du footer*/
-    font-size: 25px;
+    font-size: 20px;
 }
 main>*:nth-child(1){                        /*supression de la marge basse du premier menu*/
     margin-bottom: 0px;

@@ -3,12 +3,12 @@ main{                               /*résolution de la taille de l'écran pour 
     margin: 0 auto;
 }
 main>*:last-child{                  /*dimension de 'prochainement'*/
-    width: 70%;
+    width: 80%;
     margin-bottom: 120px;
     font-size: 20px;
 }
 article{                            /*dimension de chaque menu*/
-    width: 70%;
+    width: 80%;
     padding-top: 120px;
     padding-bottom: 120px;
 }
