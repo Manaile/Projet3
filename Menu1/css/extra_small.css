@@ -2,3 +2,23 @@ main{                               /*résolution de la taille de l'écran pour 
     width: 97%;
     margin: 0 auto;
 }
+li{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+span{
+    padding-top: 20px;
+}
+.border{
+    flex-direction: column;
+}
+h3{
+    width: 40%;
+    margin: 0 auto;
+}
+ul{                                                                                 /*bloc liste*/
+    padding-bottom: 20px;
+   
+}

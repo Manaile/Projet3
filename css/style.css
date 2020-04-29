@@ -107,6 +107,7 @@ main{                                                                 /*mise en 
 .fa-music{                                                              /*style de la note de music*/
     font-size: 40px;
     padding-bottom: 10px;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(221, 76, 120),rgb(223, 138, 67));
@@ -116,7 +117,7 @@ text-decoration: none;
 display: block;
 }
 article a:hover{                                                            /*animation sur le lien des pages*/
-    transition: scale(1) ease-in-out 400ms;
+    transition: ease-in-out 400ms;
     transform: scale(1.12);
     opacity: 0.7;
 }
@@ -146,6 +147,7 @@ main>*:nth-child(2) h3{                                                    /*chi
     font-family: 'Croissant One';
     padding: 10px;
     font-size: 20px;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
@@ -160,6 +162,7 @@ main>*:nth-child(2) h2{                                                         
 main>*:nth-child(3) h3{                                                     /*le délice des papilles*/
     font-family: 'Dancing Script';
     padding: 10px;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(6, 164, 255),rgb(59, 20, 201));
@@ -170,14 +173,15 @@ main>*:nth-child(3) h2{                                                     /*3�
     margin-top: 40px;
     color: rgb(6, 164, 255);
 }
-main>*:nth-child(4) h3{                                                        /*4ème 'menu'*/
+main>*:nth-child(4) h3{                                                        /*la palette du gout*/
     font-family: 'Kaushan Script';
     padding: 10px;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0));
 }
-main>*:nth-child(4) h2{                                                       /*la palette du gout*/
+main>*:nth-child(4) h2{                                                       /*4ème 'menu'*/
     font-family: 'Caveat';
     color: rgb(96, 189, 83);
     font-size: 50px;

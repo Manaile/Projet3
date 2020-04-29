@@ -1,5 +1,5 @@
 body{                                                               /*définition du body*/
-    font-family: 'Caveat';
+    font-family: 'Caveat',serif;
     font-size: 25px;
     color:rgb(71, 31, 24);
     background-color:rgb(253, 220, 218) ;
@@ -23,7 +23,7 @@ footer{                                                                   /*mise
     display: flex;
     justify-content: space-between;
     border-top: 1.5px solid rgb(159, 204, 107);
-    position: ;
+    position: fixed;
     bottom: 0px;
     right: 0px;
     left: 0px;
@@ -70,43 +70,55 @@ main>*:nth-child(1)                                                             
 
 }
 h3{                                                                             /*titre de chaque partie du menu*/
-    font-size: 25px;
+    font-size: 30px;
+    width: 18%;
     text-align: center;
     font-weight: bold;
+    margin: 40px auto;
 }
-
-main>*:nth-child(2n+3){                                                         /*le flex pour les 2 sous parties*/
+h3::after {                                                                     
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 4px;
+    width: 0;
+    transition: width 400ms ease-in-out;                                /*animation du surlignement*/
+  }
+h3:hover::after {
+    width: 100%;
+    background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
+  }
+  
+li{                                                                                /*liste*/
     display: flex;
-    flex-direction: row-reverse;
+    padding: 15px;
     justify-content: space-between;
 }
-main>*:nth-child(7){                                                            /*mise en colonne de la dernière partie*/
-    flex-direction: column;
-}
-li{                                                                                /*listes*/
-    padding: 15px;
+span{                                                                               /*prix*/
+    font-weight: bold;
 }
 ul{                                                                                 /*bloc liste*/
-    padding-bottom: 40px;
-    padding-top: 20px;
-}
-div>*:nth-last-of-type(2){                                                          /*les prix*/
-    font-weight: bold;
+    padding-bottom: 60px;
 }
 main>*:last-child{                                                                   /*titre du menu à la fin*/
     font-family: 'Devonshire';
     font-size: 30px;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    padding-top: 60px;
 
 
 }
 main>*:last-child .fa-music{                                                        /*la 2ème note de musique*/
-    font-size: 30px;
-    margin: auto 8px;
+    font-size: 35px;
+    margin: auto 10px;
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
+}
+.border{
+    display: flex;
+    justify-content: space-between;
 }
