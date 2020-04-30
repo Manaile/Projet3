@@ -1,0 +1,27 @@
+main{                               /*résolution de la taille de l'écran pour meilleur affichage*/
+    width: 97%;
+    margin: 0 auto;
+}
+main div{
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    margin: auto;
+    padding-bottom: 40px;
+}
+h3{
+    width: 45%;
+    margin: 0;
+}
+img{
+    width: 80%;
+}
+span{
+    padding: 20px;
+}
