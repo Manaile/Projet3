@@ -4,7 +4,8 @@ body{
     background-color:rgb(247, 236, 245);
 }
 header{                                                                  /*mise en page du header */
-    font-size: 50px;    
+    font-size: 50px;
+    font-family: 'Montserrat';
     background-color:rgb(93, 157, 138);
     text-align: center;
     color:rgb(250, 202, 71) ;
@@ -46,49 +47,68 @@ footer a:hover{
     }
     
 }
+
 main h1{
     font-family: 'Croissant One';
     font-size: 32px;
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(170, 97, 157),rgb(223, 138, 67));
     text-align: center;
     margin: 50px 0;
 }
 main div{
     display: flex;
     justify-content: center;
-    
+}
+main>*:nth-child(2){
+    color:rgb(223, 138, 67) ;
+}
+main>*:nth-child(4){
+    color:rgb(199, 119, 184);
+}
+main>*:nth-child(6){
+    color:rgb(129, 58, 223);
 }
 h3{
     font-size: 20px;
-    width: 18%;
+    width: 25%;
     text-align: center;
-    margin: 40px auto;
+    margin: 40px 0;
 }
 h3::after {                                                                     
     content: "";
     display: block;
-    height: 3px;
+    height: 2px;
     margin-top: 4px;
     width: 0;
     transition: width 400ms ease-in-out;                                /*animation du surlignement*/
   }
-  h3:hover::after {
+h3:hover::after {
     width: 100%;
-    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+    background-image: -webkit-linear-gradient(190deg,rgb(129, 58, 223),rgb(170, 97, 157),rgb(223, 138, 67));
   }
 li{                                                                                /*liste*/
     display: flex;
     padding: 15px;
     justify-content: space-between;
 }
-span{                                                                               /*prix*/
-    font-weight: bold;
-}
 ul{                                                                                 /*bloc liste*/
     padding-bottom: 60px;
-   margin: auto 100px;
-   border: blue solid 2px;
+    margin: auto 180px;
+    
+}
+main>*:nth-child(3){
+    color:rgb(223, 138, 67) ;
+}
+main>*:nth-child(5){
+    color:rgb(170, 97, 157);
+}
+main>*:nth-child(7){
+    color:rgb(129, 58, 223);
+    padding-bottom: 150px;
+}
+img{
+    width: 30%;
 }
