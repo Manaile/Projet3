@@ -1,0 +1,94 @@
+body{
+    font-family:'Playfair Display' ;
+    font-size: 18px;
+    background-color:rgb(247, 236, 245);
+}
+header{                                                                  /*mise en page du header */
+    font-size: 50px;    
+    background-color:rgb(93, 157, 138);
+    text-align: center;
+    color:rgb(250, 202, 71) ;
+    padding: 40px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    border-bottom: 1.5px solid rgb(159, 204, 107);
+}
+footer{                                                                   /*mise en page du footer*/
+    background-color: rgb(93, 157, 138);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid rgb(159, 204, 107);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+footer a                                                             /*lien non soulignés et de couleur jaune dans le footer*/
+{
+    text-decoration: none;
+    padding: 0 5px;
+    color:rgb(250, 202, 71);
+    font-family: 'Montserrat';
+    font-size: 22px;
+
+}
+footer a:hover{                                                
+    animation: wiggles 200ms ease-out infinite;
+}                                                                    /*animation du footer*/
+@keyframes wiggles{
+    
+    25%{
+        transform: translateX(4px) rotate(1deg);
+    }
+    75%{
+        transform: translateX(-4px) rotate(-1deg);
+    }
+    
+}
+main h1{
+    font-family: 'Croissant One';
+    font-size: 32px;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+    text-align: center;
+    margin: 50px 0;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    
+}
+h3{
+    font-size: 20px;
+    width: 18%;
+    text-align: center;
+    margin: 40px auto;
+}
+h3::after {                                                                     
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 4px;
+    width: 0;
+    transition: width 400ms ease-in-out;                                /*animation du surlignement*/
+  }
+  h3:hover::after {
+    width: 100%;
+    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+  }
+li{                                                                                /*liste*/
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+span{                                                                               /*prix*/
+    font-weight: bold;
+}
+ul{                                                                                 /*bloc liste*/
+    padding-bottom: 60px;
+   margin: auto 100px;
+   border: blue solid 2px;
+}
