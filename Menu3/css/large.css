@@ -1,0 +1,4 @@
+main{                                    /*résolution de la taille de l'écran pour meilleur affichage*/
+    width: 980px;
+    margin: 0 auto;
+}

@@ -1,0 +1,114 @@
+body{
+    font-family:'Caveat' ;
+    font-size: 23px;
+    background-color:rgb(230, 233, 236);
+    color: rgb(0, 0, 0);
+}
+header{                                                                  /*mise en page du header */
+    font-size: 50px;
+    font-family: 'Montserrat';
+    background-color:rgb(93, 157, 138);
+    text-align: center;
+    color:rgb(250, 202, 71) ;
+    padding: 40px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    border-bottom: 1.5px solid rgb(159, 204, 107);
+}
+footer{                                                                   /*mise en page du footer*/
+    background-color: rgb(93, 157, 138);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid rgb(159, 204, 107);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+footer a                                                             /*lien non soulignés et de couleur jaune dans le footer*/
+{
+    text-decoration: none;
+    padding: 0 5px;
+    color:rgb(250, 202, 71);
+    font-family: 'Montserrat';
+    font-size: 22px;
+
+}
+footer a:hover{                                                
+    animation: wiggles 200ms ease-out infinite;
+}                                                                    /*animation du footer*/
+@keyframes wiggles{
+    
+    25%{
+        transform: translateX(4px) rotate(1deg);
+    }
+    75%{
+        transform: translateX(-4px) rotate(-1deg);
+    }
+    
+}
+
+main h1{
+    font-family: 'Dancing script';
+    font-size: 45px;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(59, 20, 201));
+    text-align: center;
+    margin: 50px 0;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    margin: 40px 0;
+}
+h3::after {                                                                     
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 4px;
+    width: 0;
+    transition: width 400ms ease-in-out;                                /*animation du surlignement*/
+  }
+h3:hover::after {
+    width: 100%;
+    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(59, 20, 201));
+  }
+li{                                                                                /*liste*/
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+ul{                                                                                 /*bloc liste*/
+    padding-bottom: 60px;
+    margin: auto 180px;
+    
+}
+span{
+    font-weight: bold;
+}
+main>*:nth-child(7){
+    padding-bottom: 130px;
+}
+
+div>*:nth-child(1){
+    width: 30%;
+    height: 5px;
+    background: rgb(59, 20, 201);
+    
+}
+div>*:nth-child(3){
+    width: 30%;
+    height: 5px;
+    background: rgb(59, 20, 201);
+    
+}
