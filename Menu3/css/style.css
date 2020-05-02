@@ -55,7 +55,7 @@ main h1{
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(59, 20, 201));
+    background-image: -webkit-linear-gradient(right,rgb(181, 228, 255),rgb(14, 98, 255),rgb(62, 41, 248));
     text-align: center;
     margin: 50px 0;
 }
@@ -67,7 +67,7 @@ main div{
 
 h3{
     font-size: 25px;
-    width: 25%;
+    width: 19%;
     text-align: center;
     margin: 40px 0;
 }
@@ -75,13 +75,12 @@ h3::after {
     content: "";
     display: block;
     height: 2px;
-    margin-top: 4px;
     width: 0;
-    transition: width 400ms ease-in-out;                                /*animation du surlignement*/
+    transition: width 400ms ease-in-out ;                             /*animation du surlignement*/
   }
 h3:hover::after {
     width: 100%;
-    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(59, 20, 201));
+    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(14, 98, 255),rgb(62, 41, 248));
   }
 li{                                                                                /*liste*/
     display: flex;
@@ -102,13 +101,23 @@ main>*:nth-child(7){
 
 div>*:nth-child(1){
     width: 30%;
-    height: 5px;
-    background: rgb(59, 20, 201);
+    height: 10px;
+    border-radius: 10% 10% / 0% 100% ;
+    margin: 0 20px;
     
 }
 div>*:nth-child(3){
     width: 30%;
-    height: 5px;
-    background: rgb(59, 20, 201);
-    
+    height: 10px;
+    border-radius: 10% 10% / 100%  0% ;
+    margin: 0 20px;
+}
+.darkblue{
+    border-bottom:rgb(62, 41, 248) 5px solid;
+}
+.blue{
+    border-bottom:rgb(14, 98, 255) 5px solid;
+}
+.lightblue{
+    border-bottom: rgb(6, 164, 255) 5px solid;
 }
