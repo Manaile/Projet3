@@ -3,8 +3,5 @@ main{                                                           /*résolution de
     margin: 0 auto;
 }
 h3{                                                             /*titre de chaque partie*/
-    width: 25%;
-}
-ul{                                                             /*bloc de chaque partie*/
-    margin: auto 110px;
+    width: 22%;
 }

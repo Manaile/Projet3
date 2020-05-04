@@ -46,7 +46,7 @@ footer a:hover{
     }
     
 }
-main h1{
+main h1{                                                                    /*titre principale*/
     font-family: 'Kaushan script';
     font-size: 50px;
     background-clip: content-box;
@@ -58,15 +58,15 @@ main h1{
     margin: 70px 0;
 }
 
-main div{
+main div{                                                           /*bordure+titre*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h3{
+h3{                                                                     /*titre de chaque partie*/
     font-size: 25px;
-    width: 19%;
+    width: 17%;
     text-align: center;
     margin: 40px 0;
 }
@@ -80,7 +80,7 @@ h3::after {
 }
 h3:hover::after {
     width: 100%;
-    background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
+    background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
 }
 li{                                                                                /*liste*/
     display: flex;
@@ -92,22 +92,24 @@ ul{                                                                             
     margin: auto 180px;
     
 }
-span{
+span{                                                                              /*prix*/
     font-weight: bold;
 }
-main>*:nth-child(7){
+main>*:nth-child(7){                                                                /*dernier bloc*/
     padding-bottom: 130px;
 }
-div>*:nth-child(1){
+div>*:nth-child(1){                                                                 /*bordure gauche*/
     width: 30%;
     height: 100px;
+    margin-right: 20px;
     -webkit-clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
     clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
     background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
 }
-div>*:nth-child(3){
+div>*:nth-child(3){                                                                 /*bordure droite*/
     width: 30%;
     height: 100px;
+    margin-left: 20px;
     -webkit-clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
     clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
     background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47));
