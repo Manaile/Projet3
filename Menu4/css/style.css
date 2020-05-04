@@ -1,8 +1,6 @@
 body{
     font-family:'Caveat';
     font-size: 23px;
-    background-color:rgb(248, 250, 252);
-    color: rgb(0, 0, 0);
 }
 header{                                                                  /*mise en page du header */
     font-size: 50px;
@@ -48,17 +46,18 @@ footer a:hover{
     }
     
 }
-
 main h1{
-    font-family: 'Dancing script';
-    font-size: 45px;
+    font-family: 'Kaushan script';
+    font-size: 50px;
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(right,rgb(181, 228, 255),rgb(14, 98, 255),rgb(62, 41, 248));
+    background-image: -webkit-linear-gradient(60deg,rgb(58, 124, 61),rgb(144, 255, 92),rgb(238, 255, 0));
     text-align: center;
+    padding: 50px;
     margin: 70px 0;
 }
+
 main div{
     display: flex;
     justify-content: center;
@@ -81,8 +80,8 @@ h3::after {
 }
 h3:hover::after {
     width: 100%;
-    background-image: -webkit-linear-gradient(right,rgb(6, 164, 255),rgb(14, 98, 255),rgb(62, 41, 248));
-  }
+    background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
+}
 li{                                                                                /*liste*/
     display: flex;
     padding: 15px;
@@ -99,26 +98,17 @@ span{
 main>*:nth-child(7){
     padding-bottom: 130px;
 }
-
 div>*:nth-child(1){
     width: 30%;
-    height: 10px;
-    border-radius: 10% 10% / 0% 100% ;
-    margin: 0 20px;
-    
+    height: 100px;
+    -webkit-clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
 }
 div>*:nth-child(3){
     width: 30%;
-    height: 10px;
-    border-radius: 10% 10% / 100%  0% ;
-    margin: 0 20px;
-}
-.darkblue{
-    border-bottom:rgb(62, 41, 248) 5px solid;
-}
-.blue{
-    border-bottom:rgb(14, 98, 255) 5px solid;
-}
-.lightblue{
-    border-bottom: rgb(6, 164, 255) 5px solid;
+    height: 100px;
+    -webkit-clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47));
 }
