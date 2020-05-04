@@ -2,23 +2,19 @@ main{                                       /*résolution de la taille de l'écr
     width: 560px; 
     margin: 0 auto;
 }
-li{
+li{                                                 /*liste de plat*/
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
-span{
+span{                                                   /*prix*/
     padding: 20px;
 }
-.border{
-    flex-direction: column;
-}
-h3{
-    width: 40%;
-    margin: 0 auto;
+
+h3{                                                 /*titre de chaque partie des menus*/
+    width: 35%;
 }
 ul{                                                                                 /*bloc liste*/
     padding-bottom: 20px;
-    
 }

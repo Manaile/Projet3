@@ -2,26 +2,21 @@ main{                               /*résolution de la taille de l'écran pour 
     width: 97%;
     margin: 0 auto;
 }
-main div{
-    flex-direction: column;
-    align-items: center;
-}
-li{
+
+li{                                     /*liste des plats*/
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-ul{
+ul{                                     /*bloc de chaque partie*/
     margin: auto;
     padding-bottom: 40px;
 }
-h3{
+h3{                                     /*titre de chaque partie*/
     width: 45%;
     margin: 0;
 }
-img{
-    width: 80%;
-}
-span{
+
+span{                                   /*prix*/
     padding: 20px;
 }

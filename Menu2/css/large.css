@@ -2,3 +2,6 @@ main{                                    /*résolution de la taille de l'écran 
     width: 980px;
     margin: 0 auto;
 }
+h3{                                        /*titre de chaque partie*/
+    width: 25%;
+}

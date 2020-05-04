@@ -1,4 +1,4 @@
-body{
+body{                                                               /*mise en page générale*/
     font-family:'Playfair Display' ;
     font-size: 18px;
     background-color:rgb(247, 236, 245);
@@ -31,7 +31,7 @@ footer a                                                             /*lien non 
     padding: 0 5px;
     color:rgb(250, 202, 71);
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 20px;
 
 }
 footer a:hover{                                                
@@ -48,7 +48,7 @@ footer a:hover{
     
 }
 
-main h1{
+main h1{                                                                    /*titre principale*/
     font-family: 'Croissant One';
     font-size: 32px;
     background-clip: content-box;
@@ -58,22 +58,23 @@ main h1{
     text-align: center;
     margin: 50px 0;
 }
-main div{
+main div{                                                               /*titre+bordure*/
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-main>*:nth-child(2){
+main>*:nth-child(2){                                                    /*premier titre*/
     color:rgb(223, 138, 67) ;
 }
-main>*:nth-child(4){
+main>*:nth-child(4){                                                       /*deuxième titre*/
     color:rgb(199, 119, 184);
 }
-main>*:nth-child(6){
+main>*:nth-child(6){                                                    /*troisième titre*/
     color:rgb(129, 58, 223);
 }
-h3{
+h3{                                                                     /*titres*/
     font-size: 20px;
-    width: 25%;
+    width: 22%;
     text-align: center;
     margin: 40px 0;
 }
@@ -99,16 +100,38 @@ ul{                                                                             
     margin: auto 180px;
     
 }
-main>*:nth-child(3){
+main>*:nth-child(3){                                                                /*premier bloc*/
     color:rgb(223, 138, 67) ;
 }
-main>*:nth-child(5){
+main>*:nth-child(5){                                                                /*deuxième bloc*/
     color:rgb(170, 97, 157);
 }
-main>*:nth-child(7){
+main>*:nth-child(7){                                                                /*troisième bloc*/
     color:rgb(129, 58, 223);
     padding-bottom: 150px;
 }
-img{
+div>:nth-child(1){                                                                  /*bordure gauche*/
     width: 30%;
+    height: 150px;
+    margin-right: 20px;
+    -webkit-clip-path: polygon(87% 47%, 100% 50%, 87% 54%, 0 51%);
+    clip-path: polygon(87% 47%, 100% 50%, 87% 54%, 0 51%);
+    
+}
+div>:nth-child(3){                                                                  /*bordure droite*/
+    width: 30%;
+    height: 150px;
+    margin-left: 20px;
+    -webkit-clip-path: polygon(13% 47%, 100% 50%, 13% 54%, 0 51%);
+    clip-path: polygon(13% 47%, 100% 50%, 13% 54%, 0 51%);
+    
+}
+main>*:nth-child(2) div{                                                            /*première bordure*/
+    background-color: rgb(223, 138, 67);
+}
+main>*:nth-child(4) div{                                                            /*deuxième bordure*/
+    background-color: rgb(170, 97, 157);
+}
+main>*:nth-child(6) div{                                                             /*troisième bordure*/
+    background-color: rgb(129, 58, 223);
 }

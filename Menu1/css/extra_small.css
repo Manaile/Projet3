@@ -2,19 +2,17 @@ main{                               /*résolution de la taille de l'écran pour 
     width: 97%;
     margin: 0 auto;
 }
-li{
+li{                                                     /*liste de plat*/
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
-span{
+span{                                                   /*prix*/
     padding-top: 20px;
 }
-.border{
-    flex-direction: column;
-}
-h3{
+
+h3{                                                             /*titre de chaque partie des menus*/
     width: 40%;
     margin: 0 auto;
 }
