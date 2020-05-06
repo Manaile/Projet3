@@ -21,3 +21,6 @@ article{                                                         /*dimension de 
 .Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
     margin: auto 110px;
 }
+span{                                                   /*prix*/
+    margin:0 20px;
+}

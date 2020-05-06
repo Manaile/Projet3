@@ -23,6 +23,7 @@ footer{                                                                   /*mise
     left: 0px;
 }
 .home_page main >*:last-child{                                                       /*le "prochainement"*/
+    font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
     font-size: 25px;
     color:rgb(250, 202, 71);
@@ -305,7 +306,7 @@ main div{                                                               /*titre+
 }
 .Menu2 h3{                                                                     /*titres*/
     font-size: 20px;
-    width: 22%;
+    width: 24%;
     text-align: center;
     margin: 40px 0;
 }
@@ -456,4 +457,43 @@ main div{                                                               /*titre+
     -webkit-clip-path: polygon(100% 51%, 96% 48%, 86% 49%, 75% 47%, 69% 49%, 60% 46%, 46% 49%, 35% 47%, 24% 49%, 14% 46%, 0% 47%, 1% 53%, 12% 54%, 23% 56%, 35% 54%, 46% 56%, 59% 53%, 68% 55%, 76% 54%, 85% 55%, 94% 53%, 100% 56%);
     clip-path:  polygon(100% 51%, 96% 48%, 86% 49%, 75% 47%, 69% 49%, 60% 46%, 46% 49%, 35% 47%, 24% 49%, 14% 46%, 0% 47%, 1% 53%, 12% 54%, 23% 56%, 35% 54%, 46% 56%, 59% 53%, 68% 55%, 76% 54%, 85% 55%, 94% 53%, 100% 56%);
     background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47));
+}
+.Legal_Notice div{
+    font-family: 'Montserrat';
+    background-color: rgb(93, 157, 138);
+    border: 1.5px solid rgb(159, 204, 107);
+    color:rgb(250, 202, 71); 
+    font-size: 18px;
+    flex-direction: column;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px ;
+    padding-bottom: 40px;
+}
+.Legal_Notice h2{
+    font-family: 'Dancing script';
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center; 
+    color: rgb(250, 202, 71);
+    animation: turn 1.2s ease-out infinite;
+}                                                                    
+@keyframes turn{
+    
+    30%{
+        transform: rotateX(360deg);
+    }
+   70%{
+        transform: rotateX(360deg);
+   }
+    
+}
+
+.Legal_Notice h3{
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 20px;
+}
+.Legal_Notice p{
+ padding-top: 20px;
 }
