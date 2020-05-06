@@ -2,7 +2,7 @@ main{                               /*résolution de la taille de l'écran pour 
     width: 97%;
     margin: 0 auto;
 }
-main>*:last-child{                  /*dimension de 'prochainement'*/
+.home_page main>*:last-child{                  /*dimension de 'prochainement'*/
     width: 80%;
     margin-bottom: 120px;
     font-size: 20px;
@@ -15,6 +15,24 @@ article{                            /*dimension de chaque menu*/
 footer{                             /*changement de la taille de la police du footer*/
     font-size: 20px;
 }
-main>*:nth-child(1){                 /*supression de la marge basse du premier menu*/
+.home_page main>*:nth-child(1){                 /*supression de la marge basse du premier menu*/
     margin-bottom: 0px;
+}
+li{                                                     /*liste de plat*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+span{                                                   /*prix*/
+    padding-top: 20px;
+}
+
+.Menu1 h3{                                                             /*titre de chaque partie des menus*/
+    width: 40%;
+    margin: 0 auto;
+}
+ul{                                                                                 /*bloc liste*/
+    padding-bottom: 20px;
+   
 }

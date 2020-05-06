@@ -1,9 +1,6 @@
-body{                                                                    /*police et taille du texte*/
-    font-family: 'Montserrat';
-    font-size: 25px;
-}
 header{                                                                  /*mise en page du header */
-    font-size: 50px;    
+    font-family: 'Montserrat';
+    font-size: 50px; 
     background-color:rgb(93, 157, 138);
     text-align: center;
     color:rgb(250, 202, 71) ;
@@ -13,8 +10,10 @@ header{                                                                  /*mise 
     border-bottom: 1.5px solid rgb(159, 204, 107);
 }
 footer{                                                                   /*mise en page du footer*/
+    font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
     padding: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: space-between;
     border-top: 1.5px solid rgb(159, 204, 107);
@@ -23,7 +22,7 @@ footer{                                                                   /*mise
     right: 0px;
     left: 0px;
 }
-main>*:last-child{                                                       /*le "prochainement"*/
+.home_page main >*:last-child{                                                       /*le "prochainement"*/
     background-color: rgb(93, 157, 138);
     font-size: 25px;
     color:rgb(250, 202, 71);
@@ -35,51 +34,32 @@ main>*:last-child{                                                       /*le "p
     justify-content: center;
 }
 .fa-circle{                                                                 /*les points de suspension*/
-    font-size: 5px;
-    margin: 5px 0;
+    font-size: 4px;
+    margin: 3px 0;
     padding:0 10px;
     display: flex;
     align-self: flex-end;
 }
-div>*:nth-child(2){                                                
-    animation: jump 900ms ease-in-out infinite;
-}                                                                       /*animation du premier point*/
-@keyframes jump{
+.home_page main div>*:nth-child(2){                                                
+    animation: loading 1s ease-in-out infinite;
+} 
+.home_page main div>*:nth-child(3){
+    animation: loading 1s ease-in-out infinite 300ms;
+}
+.home_page main div>*:nth-child(4){
+    animation: loading 1s ease-in-out infinite 600ms ;
+}                                                                    /*animation des points*/
+@keyframes loading{
     
-    25%{
-        transform: translateY(2px);
+    0%{
+        opacity: 0;
     }
-    75%{
-        transform: translateY(-2px); 
+    100%{
+        opacity: 1; 
     }
     
 }
-div>*:nth-child(3){                                                
-    animation: jump 900ms ease-out infinite 300ms;
-}                                                                     /*animation du deuxième point*/
-@keyframes jump{
-    
-    25%{
-        transform: translateY(2px);
-    }
-    75%{
-        transform: translateY(-2px);
-    }
-    
-}
-div>*:nth-child(4){                                                
-    animation: jump 900ms ease-out infinite 600ms;
-}                                                                     /*animation du troisième point*/
-@keyframes jump{
-    
-    25%{
-        transform: translateY(2px);
-    }
-    75%{
-        transform: translateY(-2px);
-    }
-    
-}
+
 footer a                                                             /*lien non soulignés et de couleur jaune dans le footer*/
 {
     text-decoration: none;
@@ -99,12 +79,12 @@ footer a:hover{
     }
     
 }
-main{                                                                 /*mise en page du main*/
+.home_page main{                                                                 /*mise en page du main*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.fa-music{                                                              /*style de la note de music*/
+.home_page .fa-music{                                                              /*style de la note de music*/
     font-size: 40px;
     padding-bottom: 10px;
     background-clip: content-box;
@@ -132,18 +112,18 @@ article{                                                                /*mise e
 article h2{                                                                 /*espace pour les mots 'menus'*/
     margin: 20px;
 }
-main>*:nth-child(1) h3{                                                     /*la note enchantée*/
+.home_page main>*:nth-child(1) h3{                                                     /*la note enchantée*/
     font-family: 'Devonshire';
     color: rgb(71, 31, 24);
 }
-main>*:nth-child(1) h2{                                                    /*1er 'menu'*/
+.home_page main>*:nth-child(1) h2{                                                    /*1er 'menu'*/
     font-family: "Itim";
     color: rgb(71, 31, 24);
     font-style: italic;
     font-size: 40px;
     margin-top: 40px;
 }
-main>*:nth-child(2) h3{                                                    /*chic à la française*/
+.home_page main>*:nth-child(2) h3{                                                    /*chic à la française*/
     font-family: 'Croissant One';
     padding: 10px;
     font-size: 20px;
@@ -152,14 +132,14 @@ main>*:nth-child(2) h3{                                                    /*chi
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
 } 
-main>*:nth-child(2) h2{                                                         /*2eme 'menu'*/
+.home_page main>*:nth-child(2) h2{                                                         /*2eme 'menu'*/
     font-family:'Playfair Display';
     color: rgb(223, 137, 67);
     font-weight: bold;
     font-size: 35px;
     margin-top: 50px;
 }
-main>*:nth-child(3) h3{                                                     /*le délice des papilles*/
+.home_page main>*:nth-child(3) h3{                                                     /*le délice des papilles*/
     font-family: 'Dancing Script';
     padding: 10px;
     background-clip: content-box;
@@ -167,13 +147,13 @@ main>*:nth-child(3) h3{                                                     /*le
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(6, 164, 255),rgb(59, 20, 201));
 }
-main>*:nth-child(3) h2{                                                     /*3ème 'menu'*/
+.home_page main>*:nth-child(3) h2{                                                     /*3ème 'menu'*/
     font-family: 'Caveat';
     font-size: 50px;
     margin-top: 40px;
     color: rgb(6, 164, 255);
 }
-main>*:nth-child(4) h3{                                                        /*la palette du gout*/
+.home_page main>*:nth-child(4) h3{                                                        /*la palette du gout*/
     font-family: 'Kaushan Script';
     padding: 10px;
     background-clip: content-box;
@@ -181,25 +161,112 @@ main>*:nth-child(4) h3{                                                        /
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0));
 }
-main>*:nth-child(4) h2{                                                       /*4ème 'menu'*/
+.home_page main>*:nth-child(4) h2{                                                       /*4ème 'menu'*/
     font-family: 'Caveat';
     color: rgb(96, 189, 83);
     font-size: 50px;
     margin-top: 40px;
 }
-main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
+.home_page main>*:nth-child(1){                                                            /*couleur de fond du 1er menu*/
     background-color:rgb(253, 220, 218) ;
     margin: 40px;
 }
-main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
+.home_page main>*:nth-child(2){                                                           /*couleur de fond du 2eme menu*/
     background-color:rgb(247, 236, 245);
     margin: 40px;
 }
-main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
+.home_page main>*:nth-child(3){                                                            /*couleur de fond du 3eme menu*/
     background-color:rgb(238, 240, 242);
     margin: auto 40px 40px 40px;
 }
-main>*:nth-child(4){                                                            /*couleur de fond du 4eme menu*/
+.home_page main>*:nth-child(4){                                                            /*couleur de fond du 4eme menu*/
     background-color:rgb(255, 255, 255);
     margin: auto 40px 40px 40px;
+}
+.Menu1{                                                                                 /*définition du body*/
+    color:rgb(71, 31, 24);
+    background-color:rgb(253, 220, 218) ;
+}
+.Menu1 main{
+    font-family: 'Caveat',serif;
+    font-size: 25px;
+}
+.Menu1 main >*:first-child .fa-music{                                                              /*style de la 1ere note de musique */
+    font-size: 45px;
+    padding-bottom: 10px;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
+}
+.Menu1 main h1{                                                                               /*titre de la page*/
+    font-size: 35px;
+    font-family: 'Devonshire';
+    font-weight: normal;
+    
+}
+.Menu1 main >*:nth-child(1)                                                             /*la note+le titre*/
+{
+    text-align: center;
+    padding: 40px;
+}
+.Menu1 h3{                                                                             /*titre de chaque partie du menu*/
+    font-size: 30px;
+    width: 18%;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px auto;
+}
+.Menu1 h3::after {                                                                     
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 4px;
+    width: 0;
+    transition: width 400ms ease-in-out;                                /*animation du surlignement*/
+  }
+.Menu1 :hover::after {
+    width: 100%;
+    background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
+  }
+  
+.Menu1 li{                                                                                /*liste*/
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.Menu1 span{                                                                               /*prix*/
+    font-weight: bold;
+}
+.Menu1 ul{                                                                                 /*bloc liste*/
+    padding-bottom: 60px;
+}
+.Menu1 main>*:last-child{                                                                   /*titre du menu à la fin*/
+    font-family: 'Devonshire';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 60px;
+
+
+}
+.Menu1 main>*:last-child .fa-music{                                                        /*la 2ème note de musique*/
+    font-size: 35px;
+    margin: auto 10px;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
+}
+.border{                                                                                 /*titre + bordure*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu1 main div div{                                                                        /*bordure*/
+    width: 30%;
+    height: 5px;
+    margin: auto 10px;
+    background-color:rgb(71, 31, 24);
 }

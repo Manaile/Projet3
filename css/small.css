@@ -5,7 +5,7 @@ main{                                       /*résolution de la taille de l'écr
 article{                                    /*dimension de chaque menu*/
     width: 70%;
 }
-main>*:last-child{                          /*dimension du prochainement*/
+.home_page main>*:last-child{                          /*dimension du prochainement*/
     width: 45%;
     margin-bottom: 100px;
     font-size: 20px;
@@ -13,6 +13,22 @@ main>*:last-child{                          /*dimension du prochainement*/
 footer{                                     /*changement de la taille de la police du footer*/
     font-size: 20px;
 }
-main>*:nth-child(1){                        /*supression de la marge basse du premier menu*/
+.home_page main>*:nth-child(1){                        /*supression de la marge basse du premier menu*/
     margin-bottom: 0px;
+}
+li{                                                 /*liste de plat*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+span{                                                   /*prix*/
+    padding: 20px;
+}
+
+.Menu1 h3{                                                 /*titre de chaque partie des menus*/
+    width: 35%;
+}
+ul{                                                                                 /*bloc liste*/
+    padding-bottom: 20px;
 }

@@ -2,7 +2,7 @@ main{                                    /*résolution de la taille de l'écran 
     width: 980px;
     margin: 0 auto;
 }
-main>*:last-child{                      /*dimension du "prochainement"*/
+.home_page main>*:last-child{                      /*dimension du "prochainement"*/
     width: 35%;
     margin-bottom: 100px;
 }
@@ -10,4 +10,7 @@ article{                                /*dimension de chaque menu*/
     padding-top: 150px;
     padding-bottom: 150px;
     width: 35%;
+}
+.Menu1 h3{
+    width: 20%;
 }
