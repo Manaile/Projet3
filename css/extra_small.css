@@ -36,9 +36,9 @@ ul{                                                                             
     padding: 10px;
     padding-top: 10px;
 }
-.Menu2 h3,.Menu3 h3{                                     /*titre de chaque partie*/
+.Menu2 h3,.Menu3 h3,.Menu4 h3{                                     /*titre de chaque partie*/
     width: 45%;
 }
-.Menu2 ul,.Menu3 ul{
+.Menu2 ul,.Menu3 ul, .Menu4 ul{
     margin: 0;
 }

@@ -220,8 +220,8 @@ article h2{                                                                 /*es
  h3::after {                                                                     
     content: "";
     display: block;
-    height: 2px;
-    margin-top: 4px;
+    height: 1px;
+    margin-top: 5px;
     width: 0;
     transition: width 400ms ease-in-out;                                /*animation du surlignement*/
   }
@@ -235,7 +235,7 @@ article h2{                                                                 /*es
     padding: 15px;
     justify-content: space-between;
 }
- .Menu1 span, .Menu3 span{                                                                               /*prix*/
+ .Menu1 span, .Menu3 span, .Menu4 span{                                                                               /*prix*/
     font-weight: bold;
 }
 .Menu1 ul{                                                                                 /*bloc liste*/
@@ -315,7 +315,7 @@ main div{                                                               /*titre+
     background-image: -webkit-linear-gradient(190deg,rgb(129, 58, 223),rgb(170, 97, 157),rgb(223, 138, 67));
   }
 
-.Menu2 ul, .Menu3 ul{                                                                                 /*bloc liste*/
+.Menu2 ul, .Menu3 ul, .Menu4 ul{                                                                                 /*bloc liste*/
     padding-bottom: 60px;
     margin: auto 150px;
  
@@ -358,7 +358,7 @@ main div{                                                               /*titre+
 .Menu3{
     background-color:rgb(248, 250, 252);
 }
-.Menu3 main{
+.Menu3 main, .Menu4 main{
     font-family:'Caveat';
     font-size: 23px;
 }
@@ -412,4 +412,48 @@ main div{                                                               /*titre+
 }
 .lightblue{
     border-bottom: rgb(6, 164, 255) 5px solid;                                      /*troisième bordure*/
+}
+.Menu4 main h1{                                                                    /*titre principale*/
+    font-family: 'Kaushan script';
+    font-size: 50px;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(60deg,rgb(58, 124, 61),rgb(144, 255, 92),rgb(238, 255, 0));
+    text-align: center;
+    padding: 50px;
+    margin: 70px 0;
+}
+
+.Menu4 h3{                                                                     /*titre de chaque partie*/
+    font-size: 25px;
+    width: 17%;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Menu4 h3:hover::after {
+    width: 100%;
+    background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
+}
+
+
+.Menu4 main>*:nth-child(7){                                                                /*dernier bloc*/
+    padding-bottom: 130px;
+}
+.Menu4 div>*:nth-child(1){                                                                 /*bordure gauche*/
+    width: 30%;
+    height: 100px;
+    margin-right: 20px;
+    -webkit-clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    clip-path: polygon(0% 51%, 4% 48%, 14% 49%, 25% 47%, 31% 49%, 40% 46%, 54% 49%, 65% 47%, 76% 49%, 86% 46%, 100% 47%, 99% 53%, 88% 54%, 77% 56%, 65% 54%, 54% 56%, 41% 53%, 32% 55%, 24% 54%, 15% 55%, 6% 53%, 0% 56%);
+    background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
+}
+.Menu4 div>*:nth-child(3){                                                                 /*bordure droite*/
+    width: 30%;
+    height: 100px;
+    margin-left: 20px;
+    -webkit-clip-path: polygon(100% 51%, 96% 48%, 86% 49%, 75% 47%, 69% 49%, 60% 46%, 46% 49%, 35% 47%, 24% 49%, 14% 46%, 0% 47%, 1% 53%, 12% 54%, 23% 56%, 35% 54%, 46% 56%, 59% 53%, 68% 55%, 76% 54%, 85% 55%, 94% 53%, 100% 56%);
+    clip-path:  polygon(100% 51%, 96% 48%, 86% 49%, 75% 47%, 69% 49%, 60% 46%, 46% 49%, 35% 47%, 24% 49%, 14% 46%, 0% 47%, 1% 53%, 12% 54%, 23% 56%, 35% 54%, 46% 56%, 59% 53%, 68% 55%, 76% 54%, 85% 55%, 94% 53%, 100% 56%);
+    background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47));
 }

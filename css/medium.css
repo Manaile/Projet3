@@ -11,13 +11,13 @@ article{                                                         /*dimension de 
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.Menu1 h3, .Menu3 h3{
+.Menu1 h3, .Menu3 h3, .Menu4 h3{
     width: 25%;
 }
 .Menu2 h3{                                                 /*titre de chaque partie*/
     width: 33%;
 }
 
-.Menu2 ul,.Menu3 ul{                                                             /*bloc de chaque partie*/
+.Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
     margin: auto 110px;
 }

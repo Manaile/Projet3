@@ -26,7 +26,7 @@ span{                                                   /*prix*/
     padding: 20px;
 }
 
-.Menu1 h3{                                                 /*titre de chaque partie des menus*/
+.Menu1 h3, .Menu4 h3{                                                 /*titre de chaque partie des menus*/
     width: 35%;
 }
 ul{                                                                                 /*bloc liste*/
@@ -35,6 +35,6 @@ ul{                                                                             
 .Menu2 h3,.Menu3 h3{                                         /*titre de chaque partie*/
     width: 45%;
 }
-.Menu2 ul, .Menu3 ul{
+.Menu2 ul, .Menu3 ul, .Menu4 ul{
     margin: 0;
-}
+}=
