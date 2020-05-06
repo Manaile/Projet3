@@ -30,16 +30,15 @@ span{                                                   /*prix*/
 
 .Menu1 h3{                                                             /*titre de chaque partie des menus*/
     width: 40%;
-    margin: 0 auto;
+    
 }
 ul{                                                                                 /*bloc liste*/
     padding: 10px;
-   
+    padding-top: 10px;
 }
-.Menu2 h3{                                     /*titre de chaque partie*/
+.Menu2 h3,.Menu3 h3{                                     /*titre de chaque partie*/
     width: 45%;
-    margin: 0;
 }
-.Menu2 ul{
+.Menu2 ul,.Menu3 ul{
     margin: 0;
 }

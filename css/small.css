@@ -30,11 +30,11 @@ span{                                                   /*prix*/
     width: 35%;
 }
 ul{                                                                                 /*bloc liste*/
-    padding: 10px;
+    padding: 20px;
 }
-.Menu2 h3{                                         /*titre de chaque partie*/
+.Menu2 h3,.Menu3 h3{                                         /*titre de chaque partie*/
     width: 45%;
 }
-.Menu2 ul{
+.Menu2 ul, .Menu3 ul{
     margin: 0;
 }
