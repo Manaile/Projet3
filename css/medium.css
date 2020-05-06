@@ -14,3 +14,7 @@ article{                                                         /*dimension de 
 .Menu1 h3{
     width: 25%;
 }
+.Menu2 h3{                                                 /*titre de chaque partie*/
+    width: 33%;
+}
+

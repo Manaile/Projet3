@@ -33,6 +33,13 @@ span{                                                   /*prix*/
     margin: 0 auto;
 }
 ul{                                                                                 /*bloc liste*/
-    padding-bottom: 20px;
+    padding: 10px;
    
+}
+.Menu2 h3{                                     /*titre de chaque partie*/
+    width: 45%;
+    margin: 0;
+}
+.Menu2 ul{
+    margin: 0;
 }
