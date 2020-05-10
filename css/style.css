@@ -1,8 +1,6 @@
-body{                                                                   /*mise en page du body*/
+header{                                                                  /*mise en page du header */
     font-family: 'Montserrat';
     color:rgb(250, 202, 71);
-}
-header{                                                                  /*mise en page du header */
     width:auto;
     background-color:rgb(93, 157, 138);
     font-size: 50px; 
@@ -14,6 +12,7 @@ header{                                                                  /*mise 
     
 }
 footer{                                                                   /*mise en page du footer*/
+    font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
     padding: 20px;
     font-size: 22px;
