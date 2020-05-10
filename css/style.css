@@ -89,7 +89,7 @@ footer a:hover{
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(180deg,rgb(221, 76, 120),rgb(223, 138, 67));
+    background-image: -webkit-linear-gradient(180deg,rgb(223, 138, 67),rgb(221, 76, 120));
 }
 article a{                                                                  /*lien non soulignés dans le main*/
     text-decoration: none;  
