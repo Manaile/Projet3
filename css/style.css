@@ -1,5 +1,5 @@
 header{                                                                  /*mise en page du header */
-    width:100%;
+    width:auto;
     font-family: 'Montserrat';
     font-size: 50px; 
     background-color:rgb(93, 157, 138);
