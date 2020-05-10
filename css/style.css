@@ -1,17 +1,19 @@
+body{                                                                   /*mise en page du body*/
+    font-family: 'Montserrat';
+    color:rgb(250, 202, 71);
+}
 header{                                                                  /*mise en page du header */
     width:auto;
-    font-family: 'Montserrat';
-    font-size: 50px; 
     background-color:rgb(93, 157, 138);
+    font-size: 50px; 
+    border-bottom: 1.5px solid rgb(159, 204, 107);
     text-align: center;
-    color:rgb(250, 202, 71) ;
     padding: 40px;
     font-weight: bold;
     letter-spacing: -5px;
-    border-bottom: 1.5px solid rgb(159, 204, 107);
+    
 }
 footer{                                                                   /*mise en page du footer*/
-    font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
     padding: 20px;
     font-size: 22px;
@@ -27,7 +29,6 @@ footer{                                                                   /*mise
     font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
     font-size: 25px;
-    color:rgb(250, 202, 71);
     width: 30%;
     padding: 10px;
     margin:0 5% 8% 5%;
