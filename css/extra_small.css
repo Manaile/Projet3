@@ -27,15 +27,9 @@ li{                                                /*liste de plat*/
 span{                                               /*prix*/
     padding-top: 20px;
 }
-.Menu1 h3{                                          /*titre de chaque partie du menu 1*/
-    width: 60%;
-}
 ul{                                                 /*bloc liste*/
     padding: 10px;
     padding-top: 10px;
-}
-.Menu2 h3,.Menu3 h3,.Menu4 h3{                       /*titre de chaque partie des menus 2,3 et 4*/
-    width: 80%;
 }
 .Menu2 ul,.Menu3 ul, .Menu4 ul{                     /*bloc liste des menus 2,3 et 4*/
     margin: 0;

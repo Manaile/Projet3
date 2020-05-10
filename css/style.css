@@ -247,7 +247,7 @@ main div{                                                                       
 }
 .Menu1 h3{                                                                             /*taille du sous-titre du menu1*/
     font-size: 30px;
-    width: 25%;
+    width: 30%;
     font-weight: bold;
 }
 .Menu2 h3{                                                                     /*taille du sous-titre du menu2*/
@@ -331,7 +331,7 @@ span{                                                                           
 .Menu1 .border div{                                                                        /*bordure du menu1*/
     width: 30%;
     height: 5px;
-    margin: auto 10px;
+    margin: auto 20px;
     background-color:rgb(71, 31, 24);
 }
 .Menu2>*:nth-child(2){                                                    /*couleur du 1er sous-titre du menu2*/
@@ -426,7 +426,7 @@ span{                                                                           
     color:rgb(250, 202, 71); 
     font-size: 18px;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 60px auto 150px auto;
     text-align: center;
     padding: 20px ;
     padding-bottom: 40px;
@@ -434,7 +434,7 @@ span{                                                                           
 .Legal_Notice h2{                                                               /*titre de la page mentions légales*/
     font-family: 'Dancing script';
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center; 
     color: rgb(250, 202, 71);
     animation: turn 1.2s ease-out infinite;

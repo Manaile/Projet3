@@ -22,14 +22,8 @@ li{                                                          /*liste de plat*/
     align-items: center;
     text-align: center;
 }
-.Menu1 h3, .Menu4 h3{                                        /*titre de chaque partie des menus 1et 4*/
-    width: 41%;
-}
 ul{                                                          /*bloc liste*/
     padding: 20px;
-}
-.Menu2 h3,.Menu3 h3{                                         /*titre de chaque partie des menus 2 et 3*/
-    width: 73%;
 }
 .Menu2 ul, .Menu3 ul, .Menu4 ul{                            /*bloc liste des menus 2,3 et 4*/
     margin: 0;
