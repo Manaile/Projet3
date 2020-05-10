@@ -12,14 +12,14 @@ article{                                                         /*dimension de 
     padding-bottom: 120px;
 }
 .Menu1 h3, .Menu3 h3, .Menu4 h3{
-    width: 25%;
+    width: 45%;
 }
 .Menu2 h3{                                                 /*titre de chaque partie*/
-    width: 33%;
+    width: 70%;
 }
 
 .Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
-    margin: auto 110px;
+    margin: auto 40px;
 }
 span{                                                   /*prix*/
     margin:0 20px;

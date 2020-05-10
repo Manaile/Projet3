@@ -11,3 +11,18 @@ article{                                /*dimension de chaque menu*/
     padding-bottom: 150px;
     width: 35%;
 }
+.Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
+    margin: auto 80px;
+}
+span{                                                   /*prix*/
+    margin:0 20px;
+}
+.Menu2 h3,.Menu3 h3{                                     /*titre de chaque partie*/
+    width: 43%;
+}
+.Menu4 h3{
+    width: 30%;
+}
+.Menu1 h3{
+    width: 30%;
+}

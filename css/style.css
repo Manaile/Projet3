@@ -1,4 +1,5 @@
 header{                                                                  /*mise en page du header */
+    width:100%;
     font-family: 'Montserrat';
     font-size: 50px; 
     background-color:rgb(93, 157, 138);
@@ -184,14 +185,16 @@ article h2{                                                                 /*es
     margin: auto 40px 40px 40px;
 }
 .Menu1{                                                                                 /*définition du body*/
+    width: 60%;
     color:rgb(71, 31, 24);
     background-color:rgb(253, 220, 218) ;
-}
-.Menu1 main{
     font-family: 'Caveat',serif;
     font-size: 25px;
+    padding: 50px;
+    margin: 150px auto;
+    box-shadow: 1px 0px 20px lightgrey;
 }
-.Menu1 main >*:first-child .fa-music{                                                              /*style de la 1ere note de musique */
+.Menu1 >*:first-child .fa-music{                                                              /*style de la 1ere note de musique */
     font-size: 45px;
     padding-bottom: 10px;
     background-clip: border-box;
@@ -199,21 +202,21 @@ article h2{                                                                 /*es
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(255, 145, 0), rgb(180, 22, 96));
 }
-.Menu1 main h1{                                                                               /*titre de la page*/
+.Menu1 h1{                                                                               /*titre de la page*/
     font-size: 35px;
     font-family: 'Devonshire';
     font-weight: normal;
     
 }
-.Menu1 main >*:nth-child(1)                                                             /*la note+le titre*/
+.Menu1 >*:nth-child(1)                                                             /*la note+le titre*/
 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
 }
 .Menu1 h3{                                                                             /*titre de chaque partie du menu*/
     font-size: 30px;
-    width: 18%;
+    width: 25%;
     text-align: center;
     font-weight: bold;
     margin: 40px auto;
@@ -236,23 +239,21 @@ article h2{                                                                 /*es
     padding: 15px;
     justify-content: space-between;
 }
- .Menu1 span, .Menu3 span, .Menu4 span{                                                                               /*prix*/
+ .Menu1 span, .Menu3 span, .Menu4 span{                                                    /*prix*/
     font-weight: bold;
 }
 .Menu1 ul{                                                                                 /*bloc liste*/
     padding-bottom: 60px;
 }
-.Menu1 main>*:last-child{                                                                   /*titre du menu à la fin*/
+.Menu1>*:last-child{                                                                   /*titre du menu à la fin*/
     font-family: 'Devonshire';
     font-size: 30px;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
     padding-top: 60px;
-
-
 }
-.Menu1 main>*:last-child .fa-music{                                                        /*la 2ème note de musique*/
+.Menu1>*:last-child .fa-music{                                                        /*la 2ème note de musique*/
     font-size: 35px;
     margin: auto 10px;
     background-clip: border-box;
@@ -265,7 +266,7 @@ article h2{                                                                 /*es
     justify-content: center;
     align-items: center;
 }
-.Menu1 main div div{                                                                        /*bordure*/
+.Menu1 .border div{                                                                        /*bordure*/
     width: 30%;
     height: 5px;
     margin: auto 10px;
@@ -273,14 +274,15 @@ article h2{                                                                 /*es
 }
 
 .Menu2{                                                               /*mise en page générale*/
-    
+    width: 60%;
     background-color:rgb(247, 236, 245);
-}
-.Menu2 main{
     font-family:'Playfair Display' ;
     font-size: 18px;
+    padding: 50px;
+    margin: 150px auto;
+    box-shadow: 1px 0px 20px lightgrey;
 }
-.Menu2 main h1{                                                                    /*titre principale*/
+.Menu2 h1{                                                                    /*titre principale*/
     font-family: 'Croissant One';
     font-size: 32px;
     background-clip: content-box;
@@ -295,18 +297,18 @@ main div{                                                               /*titre+
     justify-content: center;
     align-items: center;
 }
-.Menu2 main>*:nth-child(2){                                                    /*premier titre*/
+.Menu2>*:nth-child(2){                                                    /*premier titre*/
     color:rgb(223, 138, 67) ;
 }
-.Menu2 main>*:nth-child(4){                                                       /*deuxième titre*/
+.Menu2>*:nth-child(4){                                                       /*deuxième titre*/
     color:rgb(199, 119, 184);
 }
-.Menu2 main>*:nth-child(6){                                                    /*troisième titre*/
+.Menu2>*:nth-child(6){                                                    /*troisième titre*/
     color:rgb(129, 58, 223);
 }
 .Menu2 h3{                                                                     /*titres*/
     font-size: 20px;
-    width: 24%;
+    width: 35%;
     text-align: center;
     margin: 40px 0;
 }
@@ -319,22 +321,21 @@ main div{                                                               /*titre+
 .Menu2 ul, .Menu3 ul, .Menu4 ul{                                                                                 /*bloc liste*/
     padding-bottom: 60px;
     margin: auto 150px;
- 
 }
-.Menu2 main>*:nth-child(3){                                                                /*premier bloc*/
+.Menu2>*:nth-child(3){                                                                /*premier bloc*/
     color:rgb(223, 138, 67) ;
 }
-.Menu2 main>*:nth-child(5){                                                                /*deuxième bloc*/
+.Menu2>*:nth-child(5){                                                                /*deuxième bloc*/
     color:rgb(170, 97, 157);
 }
-.Menu2 main>*:nth-child(7){                                                                /*troisième bloc*/
+.Menu2>*:nth-child(7){                                                                /*troisième bloc*/
     color:rgb(129, 58, 223);
     padding-bottom: 150px;
 }
 .Menu2 div>:nth-child(1){                                                                  /*bordure gauche*/
     width: 30%;
     height: 150px;
-    margin-right: 20px;
+    margin-right: 10px;
     -webkit-clip-path: polygon(87% 47%, 100% 50%, 87% 54%, 0 51%);
     clip-path: polygon(87% 47%, 100% 50%, 87% 54%, 0 51%);
     
@@ -342,28 +343,32 @@ main div{                                                               /*titre+
 .Menu2 div>:nth-child(3){                                                                  /*bordure droite*/
     width: 30%;
     height: 150px;
-    margin-left: 20px;
+    margin-left: 10px;
     -webkit-clip-path: polygon(13% 47%, 100% 50%, 13% 54%, 0 51%);
     clip-path: polygon(13% 47%, 100% 50%, 13% 54%, 0 51%);
     
 }
-.Menu2 main>*:nth-child(2) div{                                                            /*première bordure*/
+.Menu2>*:nth-child(2) div{                                                            /*première bordure*/
     background-color: rgb(223, 138, 67);
 }
-.Menu2 main>*:nth-child(4) div{                                                            /*deuxième bordure*/
+.Menu2>*:nth-child(4) div{                                                            /*deuxième bordure*/
     background-color: rgb(170, 97, 157);
 }
-.Menu2 main>*:nth-child(6) div{                                                             /*troisième bordure*/
+.Menu2>*:nth-child(6) div{                                                             /*troisième bordure*/
     background-color: rgb(129, 58, 223);
 }
 .Menu3{
     background-color:rgb(248, 250, 252);
 }
-.Menu3 main, .Menu4 main{
+.Menu3, .Menu4{
+    width: 60%;
     font-family:'Caveat';
     font-size: 23px;
+    padding: 50px;
+    margin: 150px auto;
+    box-shadow: 1px 0px 20px lightgrey;
 }
-.Menu3 main h1{                                                            /*titre principal*/
+.Menu3 h1{                                                            /*titre principal*/
     font-family: 'Dancing script';
     font-size: 45px;
     background-clip: content-box;
@@ -371,12 +376,12 @@ main div{                                                               /*titre+
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(right,rgb(181, 228, 255),rgb(14, 98, 255),rgb(62, 41, 248));
     text-align: center;
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .Menu3 h3{                                                                    /*titre de chaque partie*/
     font-size: 25px;
-    width: 19%;
+    width: 25%;
     text-align: center;
     margin: 40px 0;
 }
@@ -388,7 +393,7 @@ main div{                                                               /*titre+
 
 
 
-.Menu3 main>*:nth-child(7){                                                                /*dernier bloc*/
+.Menu3>*:nth-child(7){                                                                /*dernier bloc*/
     padding-bottom: 130px;
 }
 
@@ -414,7 +419,7 @@ main div{                                                               /*titre+
 .lightblue{
     border-bottom: rgb(6, 164, 255) 5px solid;                                      /*troisième bordure*/
 }
-.Menu4 main h1{                                                                    /*titre principale*/
+.Menu4 h1{                                                                              /*titre principale*/
     font-family: 'Kaushan script';
     font-size: 50px;
     background-clip: content-box;
@@ -423,23 +428,21 @@ main div{                                                               /*titre+
     background-image: -webkit-linear-gradient(60deg,rgb(58, 124, 61),rgb(144, 255, 92),rgb(238, 255, 0));
     text-align: center;
     padding: 50px;
-    margin: 70px 0;
 }
 
 .Menu4 h3{                                                                     /*titre de chaque partie*/
     font-size: 25px;
-    width: 17%;
+    width: 25%;
     text-align: center;
     margin: 40px 0;
 }
-
 .Menu4 h3:hover::after {
     width: 100%;
     background-image: -webkit-linear-gradient(60deg,rgb(157, 255, 0),rgb(132, 197, 101),rgb(44, 102, 47),rgb(132, 197, 101),rgb(157, 255, 0));
 }
 
 
-.Menu4 main>*:nth-child(7){                                                                /*dernier bloc*/
+.Menu4>*:nth-child(7){                                                                /*dernier bloc*/
     padding-bottom: 130px;
 }
 .Menu4 div>*:nth-child(1){                                                                 /*bordure gauche*/
