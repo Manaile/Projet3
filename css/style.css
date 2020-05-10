@@ -92,8 +92,8 @@ footer a:hover{
     background-image: -webkit-linear-gradient(180deg,rgb(221, 76, 120),rgb(223, 138, 67));
 }
 article a{                                                                  /*lien non soulignés dans le main*/
-text-decoration: none;  
-display: block;
+    text-decoration: none;  
+    display: block;
 }
 article a:hover{                                                            /*animation sur le lien des pages*/
     transition: ease-in-out 400ms;

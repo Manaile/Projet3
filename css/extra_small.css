@@ -15,14 +15,14 @@ article{                                           /*dimension de chaque menu*/
 footer{                                             /*changement de la taille de la police du footer*/
     font-size: 20px;
 }
-.home_page>*:nth-child(1){                          /*supression de la marge basse du premier menu*/
-    margin-bottom: 0px;
-}
 li{                                                /*liste de plat*/
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+}
+.home_page>*:nth-child(2){                          /*suppression de la marge haute du 2eme menu*/
+    margin-top: 0;
 }
 span{                                               /*prix*/
     padding-top: 20px;

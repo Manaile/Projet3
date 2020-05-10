@@ -13,8 +13,8 @@ article{                                                     /*dimension de chaq
 footer{                                                     /*changement de la taille de la police du footer*/
     font-size: 20px;
 }
-.home_page>*:nth-child(1){                                   /*supression de la marge basse du premier menu*/
-    margin-bottom: 0px;
+.home_page>*:nth-child(2){                                   /*suppression de la marge haute du 2eme menu*/
+    margin-top: 0;
 }
 li{                                                          /*liste de plat*/
     flex-direction: column;
