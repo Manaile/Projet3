@@ -255,7 +255,6 @@ main div{                                                                       
 }
 .Menu3 h3,.Menu4 h3{                                                                    /*taile du sous-titre des menus 3 et 4*/
     font-size: 25px;
-    width: 30%;
 }
  h3::after {                                                                     
     content: "";
