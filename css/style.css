@@ -27,6 +27,7 @@ footer{                                                                   /*mise
 .home_page>*:last-child{                                                       /*le "prochainement"*/
     font-family: 'Montserrat';
     background-color: rgb(93, 157, 138);
+    color:rgb(250, 202, 71);
     font-size: 25px;
     width: 30%;
     padding: 10px;
