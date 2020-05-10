@@ -204,34 +204,34 @@ article h2{                                                                 /*es
     font-family:'Caveat';
     font-size: 25px;
 }
-.Menu2 h1,.Menu3 h1, .Menu4 h1{                                                         /*titre des menus 2,3 et 4 en dégradé*/
+.Menu2 h2,.Menu3 h2, .Menu4 h2{                                                         /*titre des menus 2,3 et 4 en dégradé*/
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.Menu1 h1, .Menu2 h1{                                                                   /*mise en forme des titres des menus 1 et 2*/
+.Menu1 h2, .Menu2 h2{                                                                   /*mise en forme des titres des menus 1 et 2*/
     font-size: 35px;
     text-align: center;
 }
-.Menu3 h1, .Menu4 h1{                                                                           /*mise en forme du 3eme et 4eme menu*/
+.Menu3 h2, .Menu4 h2{                                                                           /*mise en forme du 3eme et 4eme menu*/
     font-size: 48px;
     text-align: center;
     margin: 50px 0;
 } 
-.Menu1 h1{                                                                                  /*police titre du premier menu*/
+.Menu1 h2{                                                                                  /*police titre du premier menu*/
     font-family: 'Devonshire';
     font-weight: normal;
 }
-.Menu2 h1{                                                                    /*police du titre du 2eme menu*/
+.Menu2 h2{                                                                    /*police du titre du 2eme menu*/
     font-family: 'Croissant One';
     background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(170, 97, 157),rgb(223, 138, 67));
     margin: 50px 0;
 }
-.Menu3 h1{                                                                           /*police du titre du 3eme menu*/
+.Menu3 h2{                                                                           /*police du titre du 3eme menu*/
     font-family: 'Dancing script';
     background-image: -webkit-linear-gradient(right,rgb(181, 228, 255),rgb(14, 98, 255),rgb(62, 41, 248));
 }
-.Menu4 h1{                                                                              /*police du titre du 4eme menu*/
+.Menu4 h2{                                                                              /*police du titre du 4eme menu*/
     font-family: 'Kaushan script';
     background-image: -webkit-linear-gradient(60deg,rgb(58, 124, 61),rgb(144, 255, 92),rgb(238, 255, 0));
     padding: 10px;
