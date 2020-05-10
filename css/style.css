@@ -244,19 +244,18 @@ main div{                                                                       
 .Menu1 h3,.Menu2 h3,.Menu3 h3,.Menu4 h3{                                            /*mise en page des titres de chaque partie des menus*/
     text-align: center;         
     margin: 40px auto;
+    width: auto;
 }
 .Menu1 h3{                                                                             /*taille du sous-titre du menu1*/
     font-size: 30px;
-    width: 30%;
     font-weight: bold;
 }
 .Menu2 h3{                                                                     /*taille du sous-titre du menu2*/
     font-size: 20px;
-    width: 35%;
 }
 .Menu3 h3,.Menu4 h3{                                                                    /*taile du sous-titre des menus 3 et 4*/
     font-size: 25px;
-    width: 25%;
+    width: 30%;
 }
  h3::after {                                                                     
     content: "";

@@ -38,3 +38,7 @@ ul{                                                 /*bloc liste*/
     width: 80%;
     padding: 10px;
 }
+.Menu2 h3{ 
+    
+    word-wrap: wrap;
+}
