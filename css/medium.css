@@ -2,7 +2,7 @@ main{                                                           /*résolution de
     width: 760px;
     margin: 0 auto;
 }
-.home_page main>*:last-child{        /*dimension du 'prochainement'*/
+.home_page>*:last-child{                                         /*dimension du 'prochainement'*/
     width: 45%;
     margin-bottom: 100px;
 }            
@@ -11,16 +11,12 @@ article{                                                         /*dimension de 
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.Menu1 h3, .Menu3 h3, .Menu4 h3{
+.Menu1 h3, .Menu3 h3, .Menu4 h3{                                /*titre de chaque partie des menus 1,3 et 4*/
     width: 45%;
 }
-.Menu2 h3{                                                 /*titre de chaque partie*/
+.Menu2 h3{                                                      /*titre de chaque partie du menu2*/
     width: 70%;
 }
-
-.Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
+.Menu2 ul,.Menu3 ul,.Menu4 ul{                                  /*bloc de chaque partie des menuss 2,3 et 4*/
     margin: auto 40px;
-}
-span{                                                   /*prix*/
-    margin:0 20px;
 }

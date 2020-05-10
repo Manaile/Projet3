@@ -1,48 +1,46 @@
-main{                               /*résolution de la taille de l'écran pour meilleur affichage*/
+main{                                              /*résolution de la taille de l'écran pour meilleur affichage*/
     width: 97%;
     margin: 0 auto;
 }
-.home_page main>*:last-child{                  /*dimension de 'prochainement'*/
+.home_page>*:last-child{                           /*dimension de 'prochainement'*/
     width: 80%;
     margin-bottom: 120px;
     font-size: 20px;
 }
-article{                            /*dimension de chaque menu*/
+article{                                           /*dimension de chaque menu*/
     width: 80%;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-footer{                             /*changement de la taille de la police du footer*/
+footer{                                             /*changement de la taille de la police du footer*/
     font-size: 20px;
 }
-.home_page main>*:nth-child(1){                 /*supression de la marge basse du premier menu*/
+.home_page>*:nth-child(1){                          /*supression de la marge basse du premier menu*/
     margin-bottom: 0px;
 }
-li{                                                     /*liste de plat*/
+li{                                                /*liste de plat*/
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
-span{                                                   /*prix*/
+span{                                               /*prix*/
     padding-top: 20px;
 }
-
-.Menu1 h3{                                                             /*titre de chaque partie des menus*/
+.Menu1 h3{                                          /*titre de chaque partie du menu 1*/
     width: 60%;
-    
 }
-ul{                                                                                 /*bloc liste*/
+ul{                                                 /*bloc liste*/
     padding: 10px;
     padding-top: 10px;
 }
-.Menu2 h3,.Menu3 h3,.Menu4 h3{                                     /*titre de chaque partie*/
+.Menu2 h3,.Menu3 h3,.Menu4 h3{                       /*titre de chaque partie des menus 2,3 et 4*/
     width: 80%;
 }
-.Menu2 ul,.Menu3 ul, .Menu4 ul{
+.Menu2 ul,.Menu3 ul, .Menu4 ul{                     /*bloc liste des menus 2,3 et 4*/
     margin: 0;
 }
-.Menu1, .Menu2, .Menu3, .Menu4{
+.Menu1, .Menu2, .Menu3, .Menu4{                     /*taille des menus*/
     width: 80%;
     padding: 10px;
 }

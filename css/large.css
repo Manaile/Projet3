@@ -1,28 +1,22 @@
-main{                                    /*résolution de la taille de l'écran pour meilleur affichage*/
+main{                                                /*résolution de la taille de l'écran pour meilleur affichage*/
     width: 980px;
     margin: 0 auto;
 }
-.home_page main>*:last-child{                      /*dimension du "prochainement"*/
+.home_page>*:last-child{                            /*dimension du "prochainement"*/
     width: 35%;
     margin-bottom: 100px;
 }
-article{                                /*dimension de chaque menu*/
+article{                                            /*dimension de chaque menu*/
     padding-top: 150px;
     padding-bottom: 150px;
     width: 35%;
 }
-.Menu2 ul,.Menu3 ul,.Menu4 ul{                                                             /*bloc de chaque partie*/
+.Menu2 ul,.Menu3 ul,.Menu4 ul{                       /*bloc de chaque partie des menus 2,3 et 4*/
     margin: auto 80px;
 }
-span{                                                   /*prix*/
-    margin:0 20px;
-}
-.Menu2 h3,.Menu3 h3{                                     /*titre de chaque partie*/
+.Menu2 h3,.Menu3 h3{                                 /*titre de chaque partie des menus 2 et 3*/
     width: 43%;
 }
-.Menu4 h3{
-    width: 30%;
-}
-.Menu1 h3{
+.Menu1 h3,.Menu4 h3{                                /*titre de chaque partie des menus 1 et 4*/
     width: 30%;
 }
