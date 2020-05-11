@@ -9,7 +9,6 @@ header{                                                                  /*mise 
     padding: 40px;
     font-weight: bold;
     letter-spacing: -5px;
-    
 }
 footer{                                                                   /*mise en page du footer*/
     font-family: 'Montserrat';
@@ -109,21 +108,21 @@ article{                                                                /*mise e
     padding-bottom: 250px;
     box-shadow: 1px 0px 20px lightgrey;
 }
-article h2{                                                                 /*espace pour les mots 'menus'*/
+article h3{                                                                 /*espace pour les mots 'menus'*/
     margin: 20px;
 }
-.home_page>*:nth-child(1) h3{                                                     /*la note enchantée*/
+.home_page>*:nth-child(1) h2{                                                     /*la note enchantée*/
     font-family: 'Devonshire';
     color: rgb(71, 31, 24);
 }
-.home_page>*:nth-child(1) h2{                                                    /*1er 'menu'*/
+.home_page>*:nth-child(1) h3{                                                    /*1er 'menu'*/
     font-family: "Itim";
     color: rgb(71, 31, 24);
     font-style: italic;
     font-size: 40px;
     margin-top: 40px;
 }
-.home_page>*:nth-child(2) h3{                                                    /*chic à la française*/
+.home_page>*:nth-child(2) h2{                                                    /*chic à la française*/
     font-family: 'Croissant One';
     padding: 10px;
     font-size: 20px;
@@ -132,14 +131,14 @@ article h2{                                                                 /*es
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
 } 
-.home_page>*:nth-child(2) h2{                                                         /*2eme 'menu'*/
+.home_page>*:nth-child(2) h3{                                                         /*2eme 'menu'*/
     font-family:'Playfair Display';
     color: rgb(223, 137, 67);
     font-weight: bold;
     font-size: 35px;
     margin-top: 50px;
 }
-.home_page>*:nth-child(3) h3{                                                     /*le délice des papilles*/
+.home_page>*:nth-child(3) h2{                                                     /*le délice des papilles*/
     font-family: 'Dancing Script';
     padding: 10px;
     background-clip: content-box;
@@ -147,13 +146,13 @@ article h2{                                                                 /*es
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(180deg,rgb(6, 164, 255),rgb(59, 20, 201));
 }
-.home_page>*:nth-child(3) h2{                                                     /*3ème 'menu'*/
+.home_page>*:nth-child(3) h3{                                                     /*3ème 'menu'*/
     font-family: 'Caveat';
     font-size: 50px;
     margin-top: 40px;
     color: rgb(6, 164, 255);
 }
-.home_page>*:nth-child(4) h3{                                                        /*la palette du gout*/
+.home_page>*:nth-child(4) h2{                                                        /*la palette du gout*/
     font-family: 'Kaushan Script';
     padding: 10px;
     background-clip: content-box;
@@ -161,7 +160,7 @@ article h2{                                                                 /*es
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(60deg,rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0));
 }
-.home_page>*:nth-child(4) h2{                                                       /*4ème 'menu'*/
+.home_page>*:nth-child(4) h3{                                                       /*4ème 'menu'*/
     font-family: 'Caveat';
     color: rgb(96, 189, 83);
     font-size: 50px;
