@@ -108,6 +108,24 @@ footer{
         margin-top: 50px;
     }
     }
+    >:nth-child(3){
+        background-color:$bgd-menu3;
+        margin: auto 40px 40px 40px;
+        h2{
+            font-family: 'Dancing Script';
+            padding: 10px;
+            background-clip: content-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(180deg,$gradient-menu3);
+        }
+        h3{
+            font-family: 'Caveat';
+            font-size: 50px;
+            margin-top: 40px;
+            color: $txt-menu3;
+        }
+    }
 }
 article{
     width: 40%;

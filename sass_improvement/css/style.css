@@ -86,6 +86,24 @@ footer a:hover {
   font-size: 35px;
   margin-top: 50px;
 }
+.home_page > :nth-child(3) {
+  background-color: #eef0f2;
+  margin: auto 40px 40px 40px;
+}
+.home_page > :nth-child(3) h2 {
+  font-family: "Dancing Script";
+  padding: 10px;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(180deg, #06a4ff, #3b14c9);
+}
+.home_page > :nth-child(3) h3 {
+  font-family: "Caveat";
+  font-size: 50px;
+  margin-top: 40px;
+  color: #06a4ff;
+}
 
 article {
   width: 40%;
