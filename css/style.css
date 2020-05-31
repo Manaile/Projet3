@@ -89,7 +89,7 @@ footer a:hover{
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(180deg,rgb(223, 138, 67),rgb(221, 76, 120));
+    background-image: -webkit-linear-gradient(180deg,rgb(223, 137, 67),rgb(221, 76, 120));
 }
 article a{                                                                  /*lien non soulignés dans le main*/
     text-decoration: none;  
@@ -129,7 +129,7 @@ article h3{                                                                 /*es
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 138, 67));
+    background-image: -webkit-linear-gradient(180deg,rgb(129, 58, 223),rgb(223, 137, 67));
 } 
 .home_page>*:nth-child(2) h3{                                                         /*2eme 'menu'*/
     font-family:'Playfair Display';
