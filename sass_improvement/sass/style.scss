@@ -73,7 +73,7 @@ footer{
 }
 .home_page{
     >:nth-child(1){
-        background-color:rgb(253, 220, 218);
+        background-color:$bgd-menu1;
         margin: 40px;
         h2{ 
             font-family: 'Devonshire';
@@ -87,6 +87,26 @@ footer{
             margin-top: 40px;
         }
     
+    }
+    >:nth-child(2){
+    background-color:$bgd-menu2;
+    margin: 40px;
+    h2{
+        font-family: 'Croissant One';
+        padding: 10px;
+        font-size: 20px;
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(180deg,$gradient-menu2);
+    }
+    h3{
+        font-family:'Playfair Display';
+        color: $txt-menu2;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 50px;
+    }
     }
 }
 article{

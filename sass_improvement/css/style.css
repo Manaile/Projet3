@@ -66,6 +66,26 @@ footer a:hover {
   font-size: 40px;
   margin-top: 40px;
 }
+.home_page > :nth-child(2) {
+  background-color: #f7ecf5;
+  margin: 40px;
+}
+.home_page > :nth-child(2) h2 {
+  font-family: "Croissant One";
+  padding: 10px;
+  font-size: 20px;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(180deg, #813adf, #df8943);
+}
+.home_page > :nth-child(2) h3 {
+  font-family: "Playfair Display";
+  color: #df8943;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 50px;
+}
 
 article {
   width: 40%;
