@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   font-family: "Montserrat";
   color: #faca47;
@@ -33,6 +34,60 @@ footer a {
 }
 footer a:hover {
   animation: wiggles 200ms ease-out infinite;
+}
+
+.home_page {
+  /*mise en page du main*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home_page .fa-music {
+  font-size: 40px;
+  padding-bottom: 10px;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(180deg, #df8943, #dd4c78);
+}
+
+.home_page > :nth-child(1) {
+  background-color: #fddcda;
+  margin: 40px;
+}
+.home_page > :nth-child(1) h2 {
+  font-family: "Devonshire";
+  color: #471f18;
+}
+.home_page > :nth-child(1) h3 {
+  font-family: "Itim";
+  color: #471f18;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+article {
+  width: 40%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  box-shadow: 1px 0px 20px lightgrey;
+}
+article a {
+  /*lien non soulignés dans le main*/
+  text-decoration: none;
+  display: block;
+}
+article a:hover {
+  /*animation sur le lien des pages*/
+  transition: ease-in-out 400ms;
+  transform: scale(1.12);
+  opacity: 0.7;
+}
+article h3 {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

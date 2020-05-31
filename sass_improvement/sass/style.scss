@@ -14,6 +14,7 @@ $bgd-menu4:rgb(255, 255, 255);
 $txt-menu4:rgb(96, 189, 83);
 $gradient-menu4:rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0);
 $border-color:rgb(159, 204, 107);
+$shadow: lightgrey;
 
 //*MIXINS
 @mixin typography {
@@ -56,4 +57,55 @@ header{
 }
 footer{
     @include footer;
+}
+.home_page{                                                                 /*mise en page du main*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .fa-music{
+        font-size: 40px;
+        padding-bottom: 10px;
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(180deg,$gradient-menu1);
+    }
+}
+.home_page{
+    >:nth-child(1){
+        background-color:rgb(253, 220, 218);
+        margin: 40px;
+        h2{ 
+            font-family: 'Devonshire';
+            color: $txt-menu1;
+        }
+        h3{
+            font-family: "Itim";
+            color: $txt-menu1;
+            font-style: italic;
+            font-size: 40px;
+            margin-top: 40px;
+        }
+    
+    }
+}
+article{
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    box-shadow: 1px 0px 20px $shadow;
+    a{                                                                  /*lien non soulignés dans le main*/
+        text-decoration: none;  
+        display: block;
+        &:hover{                                                            /*animation sur le lien des pages*/
+            transition: ease-in-out 400ms;
+            transform: scale(1.12);
+            opacity: 0.7;
+        }
+    }
+    h3{
+        margin: 20px;
+    }
 }
