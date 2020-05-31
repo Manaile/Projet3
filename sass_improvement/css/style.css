@@ -1,3 +1,38 @@
+header {
+  font-family: "Montserrat";
+  color: #faca47;
+  width: auto;
+  background-color: #5d9d8a;
+  font-size: 50px;
+  border-bottom: 1.5px solid #9fcc6b;
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
 
+footer {
+  font-family: "Montserrat";
+  color: #faca47;
+  width: auto;
+  background-color: #5d9d8a;
+  padding: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px solid #9fcc6b;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+footer a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: #faca47;
+}
+footer a:hover {
+  animation: wiggles 200ms ease-out infinite;
+}
 
 /*# sourceMappingURL=style.css.map */
