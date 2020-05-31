@@ -126,6 +126,26 @@ footer{
             color: $txt-menu3;
         }
     }
+    >:nth-child(4){
+        background-color:$bgd-menu4;
+        margin: auto 40px 40px 40px;
+        h2{
+            font-family: 'Kaushan Script';
+            padding: 10px;
+            background-clip: content-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(60deg,$gradient-menu4);
+        }
+        h3{
+            font-family: 'Caveat';
+            color: $txt-menu4;
+            font-size: 50px;
+            margin-top: 40px;
+        }
+        
+    }
+    
 }
 article{
     width: 40%;

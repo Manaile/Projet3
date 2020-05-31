@@ -104,6 +104,24 @@ footer a:hover {
   margin-top: 40px;
   color: #06a4ff;
 }
+.home_page > :nth-child(4) {
+  background-color: white;
+  margin: auto 40px 40px 40px;
+}
+.home_page > :nth-child(4) h2 {
+  font-family: "Kaushan Script";
+  padding: 10px;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(60deg, #2c662f, #90ff5c, #eeff00);
+}
+.home_page > :nth-child(4) h3 {
+  font-family: "Caveat";
+  color: #60bd53;
+  font-size: 50px;
+  margin-top: 40px;
+}
 
 article {
   width: 40%;
