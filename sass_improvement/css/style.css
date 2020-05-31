@@ -122,6 +122,26 @@ footer a:hover {
   font-size: 50px;
   margin-top: 40px;
 }
+.home_page > :last-child {
+  font-family: "Montserrat";
+  background-color: #5d9d8a;
+  color: #faca47;
+  font-size: 25px;
+  width: 30%;
+  padding: 10px;
+  margin: 0 5% 8% 5%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.home_page > :last-child .fa-circle {
+  /*les points de suspension*/
+  font-size: 4px;
+  margin: 3px 0;
+  padding: 0 10px;
+  display: flex;
+  align-self: flex-end;
+}
 
 article {
   width: 40%;
