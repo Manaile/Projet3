@@ -1,0 +1,13 @@
+{
+  "name": "bmana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass_improvement/sass/style.scss:sass_improvement/css/style.css --style expanded",
+    "prefix": "postcss sass_improvement/css/style.css --use autoprefixer -d sass_improvement/css/prefixed/ "
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist":"last 4 versions"
+}
