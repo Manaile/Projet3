@@ -58,6 +58,16 @@ header{
 footer{
     @include footer;
 }
+@keyframes wiggles{
+    
+    25%{
+        transform: translateX(4px) rotate(1deg);
+    }
+    75%{
+        transform: translateX(-4px) rotate(-1deg);
+    }
+    
+}
 .home_page{                                                                 /*mise en page du main*/
     display: flex;
     flex-wrap: wrap;
