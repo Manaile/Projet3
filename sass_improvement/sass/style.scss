@@ -13,4 +13,41 @@ $gradient-menu3:$txt-menu3,rgb(59, 20, 201);
 $bgd-menu4:rgb(255, 255, 255);
 $txt-menu4:rgb(96, 189, 83);
 $gradient-menu4:rgb(44, 102, 47),rgb(144, 255, 92),rgb(238, 255, 0);
+$border-color:rgb(159, 204, 107);
 
+//*MIXINS
+@mixin typography {
+    font-family: 'Montserrat';
+    color:$txt-color;
+    width:auto;
+    background-color:$bgd-color;
+}
+@mixin header{
+    @include typography;
+    font-size: 50px; 
+    border-bottom: 1.5px solid rgb(159, 204, 107);
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+@mixin footer {
+    @include typography;
+    padding: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid $border-color;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    a {
+        text-decoration: none;
+        padding: 0 5px;
+        color:$txt-color;
+        &:hover{
+            animation: wiggles 200ms ease-out infinite;
+        }
+    }
+}
