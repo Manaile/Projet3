@@ -7,6 +7,10 @@
     "sass": "sass --watch sass_improvement/sass/style.scss:sass_improvement/css/style.css --style expanded",
     "prefix": "postcss sass_improvement/css/style.css --use autoprefixer -d sass_improvement/css/prefixed/ "
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manaile/Projet3"
+  },
   "author": "",
   "license": "ISC",
   "browserslist":"last 4 versions"
